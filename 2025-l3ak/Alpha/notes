@@ -1,0 +1,50 @@
+b *0x7ffff7c45337
+b *0x5555555551E9
+
+p /x (((ucontext_t*)$rsp)->uc_mcontext.gregs)
+p /x (((ucontext_t*)0x7fffffffd680)->uc_mcontext.gregs)
+
+
+enum {
+    REG_R8 = 0,      // Index 0
+    REG_R9,          // Index 1
+    REG_R10,         // Index 2
+    REG_R11,         // Index 3
+    REG_R12,         // Index 4
+    REG_R13,         // Index 5
+    REG_R14,         // Index 6
+    REG_R15,         // Index 7
+    REG_RDI,         // Index 8
+    REG_RSI,         // Index 9
+    REG_RBP,         // Index 10
+    REG_RBX,         // Index 11
+    REG_RDX,         // Index 12
+    REG_RAX,         // Index 13
+    REG_RCX,         // Index 14
+    REG_RSP,         // Index 15
+    REG_RIP,         // Index 16
+    REG_EFL,         // Index 17 (RFLAGS)
+    REG_CSGSFS,      // Index 18 (CS, GS, FS segments)
+    REG_ERR,         // Index 19
+    REG_TRAPNO,      // Index 20
+    REG_OLDMASK,     // Index 21
+    REG_CR2          // Index 22
+};
+
+ RAX  0x42
+ RBX  0x42
+ RCX  0x1f
+*RDX  0
+*RDI  0xffffffbe
+*RSI  0x80000000
+ R8   0
+ R9   0x410
+ R10  1
+ R11  0x246
+ R12  0x42
+ R13  0
+ R14  0x555555557d98 —▸ 0x5555555551a0 ◂— endbr64  /* 0x2e8d3d80fa1e0ff3 */
+ R15  0x7ffff7ffd000 (_rtld_global) —▸ 0x7ffff7ffe2e0 —▸ 0x555555554000 ◂— 0x10102464c457f
+ RBP  0x7fffffffdda0 —▸ 0x7fffffffde40 —▸ 0x7fffffffdea0 ◂— 0
+ RSP  0x7fffffffdd40 ◂— '1BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB'
+*RIP  0x555555555350 ◂— 0x48fffffd89e8c737

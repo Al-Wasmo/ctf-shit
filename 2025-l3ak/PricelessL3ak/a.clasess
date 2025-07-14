@@ -1,0 +1,23 @@
+     ____
+    / _  |   Frida 17.2.11 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   More info at https://frida.re/docs/home/
+   . . . .
+   . . . .   Connected to Nexus 4 (id=127.0.0.1:6555)
+Attaching...
+[+] Hooked onNewIntent in h1832fla12
+
+[Nexus 4::PID::3579 ]-> [Nexus 4::PID::3579 ]-> 
+[Nexus 4::PID::3579 ]-> 
+[Nexus 4::PID::3579 ]-> 
+[Nexus 4::PID::3579 ]-> 
+[Nexus 4::PID::3579 ]-> 
+[Nexus 4::PID::3579 ]-> 
+[Nexus 4::PID::3579 ]-> 
+[Nexus 4::PID::3579 ]-> 
+[Nexus 4::PID::3579 ]-> 

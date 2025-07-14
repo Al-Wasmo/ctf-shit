@@ -1,0 +1,4978 @@
+All defined types:
+
+File ./libc/calls/metalfile.internal.h:
+6:	struct MetalFile;
+
+File ./libc/calls/sig.internal.h:
+13:	struct Signals;
+
+File ./libc/calls/struct/cpuset.h:
+8:	struct cpu_set_t;
+
+File ./libc/calls/struct/flock.h:
+5:	struct flock;
+
+File ./libc/calls/struct/iovec.h:
+5:	struct iovec;
+
+File ./libc/calls/struct/metastat.internal.h:
+105:	union metastat;
+65:	struct stat_freebsd;
+15:	struct stat_linux;
+93:	struct stat_netbsd;
+80:	struct stat_openbsd;
+51:	struct stat_xnu;
+
+File ./libc/calls/struct/rlimit.h:
+5:	struct rlimit;
+
+File ./libc/calls/struct/sigaction.h:
+8:	typedef void (*)(int, siginfo_t *, void *) sigaction_f;
+
+File ./libc/calls/struct/sigaltstack.h:
+5:	struct sigaltstack;
+11:	typedef struct sigaltstack stack_t;
+
+File ./libc/calls/struct/siginfo.h:
+6:	struct siginfo;
+57:	typedef struct siginfo siginfo_t;
+
+File ./libc/calls/struct/sigset.h:
+5:	typedef unsigned long sigset_t;
+
+File ./libc/calls/struct/sigval.h:
+5:	union sigval;
+
+File ./libc/calls/struct/stat.h:
+6:	struct stat;
+
+File ./libc/calls/struct/timespec.h:
+6:	struct timespec;
+
+File ./libc/calls/struct/timeval.h:
+7:	struct timeval;
+
+File ./libc/calls/ucontext.h:
+39:	struct FpuStackEntry;
+45:	struct FpuState;
+35:	struct XmmRegister;
+100:	typedef long long greg_t;
+101:	typedef greg_t [23] gregset_t;
+106:	struct sigcontext;
+153:	struct ucontext;
+169:	typedef struct ucontext ucontext_t;
+
+File ./libc/elf/struct/ehdr.h:
+8:	struct Elf64_Ehdr;
+
+File ./libc/elf/struct/phdr.h:
+5:	struct Elf64_Phdr;
+
+File ./libc/elf/struct/shdr.h:
+9:	struct Elf64_Shdr;
+
+File ./libc/elf/struct/sym.h:
+5:	struct Elf64_Sym;
+
+File ./libc/elf/struct/verdaux.h:
+5:	struct Elf64_Verdaux;
+
+File ./libc/elf/struct/verdef.h:
+5:	struct Elf64_Verdef;
+
+File ./libc/fmt/conv.h:
+50:	typedef struct {...} ldiv_t;
+
+File ./libc/fmt/magnumstrs.internal.h:
+15:	struct MagnumStr;
+
+File ./libc/integral/c.inc:
+102:	typedef struct {...} axdx_t;
+60:	typedef int bool32;
+38:	typedef unsigned short char16_t;
+49:	typedef int errno_t;
+58:	typedef short int16_t;
+61:	typedef int int32_t;
+63:	typedef long int64_t;
+52:	typedef long intptr_t;
+54:	typedef long ptrdiff_t;
+50:	typedef unsigned long size_t;
+51:	typedef long ssize_t;
+94:	typedef __int128 unsigned uint128_t;
+59:	typedef unsigned short uint16_t;
+62:	typedef unsigned int uint32_t;
+64:	typedef unsigned long uint64_t;
+57:	typedef unsigned char uint8_t;
+53:	typedef unsigned long uintptr_t;
+37:	typedef int wchar_t;
+55:	typedef unsigned int wint_t;
+
+File ./libc/intrin/cxaatexit.h:
+11:	struct CxaAtexit;
+8:	struct CxaAtexitBlock;
+7:	struct CxaAtexitBlocks;
+
+File ./libc/intrin/describeflags.h:
+6:	struct DescribeFlags;
+
+File ./libc/intrin/dll.h:
+12:	struct Dll;
+
+File ./libc/intrin/dos2errno.h:
+5:	struct Dos2Errno;
+
+File ./libc/intrin/fds.h:
+23:	struct Cursor;
+18:	struct CursorShared;
+28:	struct Fd;
+44:	struct Fds;
+
+File ./libc/intrin/getauxval.h:
+5:	struct AuxiliaryValue;
+
+File ./libc/intrin/getenv.h:
+5:	struct Env;
+
+File ./libc/intrin/magicu.h:
+5:	struct magicu;
+
+File ./libc/intrin/maps.h:
+75:	struct AddrSize;
+32:	struct Map;
+48:	struct MapLock;
+53:	struct MapSlab;
+58:	struct Maps;
+
+File ./libc/intrin/nomultics.h:
+17:	struct TtyConf;
+
+File ./libc/intrin/tree.h:
+13:	struct Tree;
+20:	typedef int (const struct Tree *, const struct Tree *) tree_cmp_f;
+19:	typedef int (const void *, const struct Tree *) tree_search_f;
+
+File ./libc/intrin/x86.h:
+78:	enum ProcessorFeatures;
+40:	enum ProcessorSubtypes;
+17:	enum ProcessorTypes;
+10:	enum ProcessorVendors;
+5:	enum VendorSignatures;
+202:	struct __processor_model;
+
+File ./libc/mem/mem.h:
+38:	struct mallinfo;
+
+File ./libc/nexgen32e/gc.internal.h:
+6:	struct Garbage;
+13:	struct Garbages;
+
+File ./libc/nexgen32e/stackframe.h:
+6:	struct StackFrame;
+
+File ./libc/nt/signals.h:
+34:	typedef int32_t (*)(struct NtExceptionPointers *) NtVectoredExceptionHandler;
+
+File ./libc/nt/struct/acl.h:
+4:	struct NtAcl;
+
+File ./libc/nt/struct/byhandlefileinformation.h:
+5:	struct NtByHandleFileInformation;
+
+File ./libc/nt/struct/context.h:
+28:	struct NtContext;
+4:	struct NtM128A;
+9:	struct NtXmmSaveArea32;
+
+File ./libc/nt/struct/coord.h:
+4:	struct NtCoord;
+
+File ./libc/nt/struct/filecompressioninfo.h:
+4:	struct NtFileCompressionInfo;
+
+File ./libc/nt/struct/filetime.h:
+4:	struct NtFileTime;
+
+File ./libc/nt/struct/inputrecord.h:
+50:	struct NtFocusEventRecord;
+54:	struct NtInputRecord;
+5:	struct NtKeyEventRecord;
+46:	struct NtMenuEventRecord;
+26:	struct NtMouseEventRecord;
+42:	struct NtWindowBufferSizeRecord;
+
+File ./libc/nt/struct/ntexceptionpointers.h:
+6:	struct NtExceptionPointers;
+
+File ./libc/nt/struct/ntexceptionrecord.h:
+7:	struct NtExceptionRecord;
+
+File ./libc/nt/struct/overlapped.h:
+4:	struct NtOverlapped;
+
+File ./libc/nt/struct/processornumber.h:
+5:	struct NtProcessorNumber;
+
+File ./libc/nt/struct/reparsedatabuffer.h:
+5:	struct NtReparseDataBuffer;
+
+File ./libc/nt/struct/securityattributes.h:
+6:	struct NtSecurityAttributes;
+
+File ./libc/nt/struct/securitydescriptor.h:
+5:	struct NtSecurityDescriptor;
+
+File ./libc/nt/struct/systeminfo.h:
+4:	struct NtSystemInfo;
+
+File ./libc/nt/typedef/handlerroutine.h:
+5:	typedef bool32 (*)(uint32_t) NtHandlerRoutine;
+
+File ./libc/runtime/e820.internal.h:
+6:	struct SmapEntry;
+
+File ./libc/runtime/mman.internal.h:
+15:	struct mman;
+
+File ./libc/runtime/runtime.h:
+10:	typedef long [8] jmp_buf;
+
+File ./libc/runtime/symbols.internal.h:
+8:	struct Symbol;
+13:	struct SymbolTable;
+
+File ./libc/runtime/syslib.internal.h:
+25:	struct Syslib;
+23:	typedef unsigned long dispatch_semaphore_t;
+22:	typedef unsigned long dispatch_time_t;
+
+File ./libc/runtime/winargs.internal.h:
+6:	struct WinArgs;
+
+File ./libc/runtime/zipos.internal.h:
+36:	struct Zipos;
+24:	struct ZiposHandle;
+19:	struct ZiposUri;
+
+File ./libc/stdio/internal.h:
+14:	struct FILE;
+33:	struct Stdio;
+
+File ./libc/stdio/stdio.h:
+25:	typedef struct FILE FILE;
+
+File ./libc/str/locale.h:
+25:	typedef struct __locale_struct * locale_t;
+
+File ./libc/str/locale.internal.h:
+10:	struct __locale_map;
+17:	struct __locale_struct;
+
+File ./libc/thread/freebsd.internal.h:
+44:	struct _umtx_time;
+
+File ./libc/thread/posixthread.internal.h:
+73:	struct PosixThread;
+19:	enum PosixThreadStatus;
+71:	typedef struct __locale_struct * locale_t;
+
+File ./libc/thread/thread.h:
+138:	struct _pthread_cleanup_buffer;
+123:	struct pthread_attr_s;
+136:	typedef struct pthread_attr_s pthread_attr_t;
+66:	typedef void (*)(void *) pthread_key_dtor;
+76:	struct pthread_mutex_s;
+82:	typedef struct pthread_mutex_s pthread_mutex_t;
+61:	typedef unsigned long pthread_t;
+
+File ./libc/thread/tls.h:
+11:	struct CosmoFtrace;
+21:	struct CosmoTib;
+
+File ./third_party/dlmalloc/dlmalloc.h:
+445:	typedef void * mspace;
+
+File ./third_party/intel/emmintrin.internal.h:
+20:	typedef long long __attribute__ ((vector_size(2))) __m128i;
+22:	typedef long long __attribute__ ((vector_size(2))) __m128i_u;
+17:	typedef char __attribute__ ((vector_size(16))) __v16qi;
+18:	typedef signed char __attribute__ ((vector_size(16))) __v16qs;
+11:	typedef long long __attribute__ ((vector_size(2))) __v2di;
+13:	typedef int __attribute__ ((vector_size(4))) __v4si;
+15:	typedef short __attribute__ ((vector_size(8))) __v8hi;
+
+File ./third_party/intel/mmintrin.internal.h:
+15:	typedef int __attribute__ ((vector_size(2))) __m64;
+18:	typedef int __attribute__ ((vector_size(2))) __m64_u;
+
+File ./third_party/nsync/common.internal.h:
+133:	typedef struct lock_type_s lock_type;
+124:	struct lock_type_s;
+153:	struct wait_condition_s;
+204:	typedef struct waiter_s waiter;
+188:	struct waiter_s;
+
+File ./third_party/nsync/cv.h:
+90:	struct nsync_cv_s_;
+
+File ./third_party/nsync/mu.h:
+52:	typedef struct nsync_mu_s_ nsync_mu;
+49:	struct nsync_mu_s_;
+
+File ./third_party/nsync/mu_semaphore.h:
+8:	typedef struct nsync_semaphore_s_ nsync_semaphore;
+6:	struct nsync_semaphore_s_;
+
+File ./third_party/nsync/time.h:
+19:	typedef struct timespec nsync_time;
+
+File ./third_party/nsync/wait_s.internal.h:
+13:	struct nsync_waiter_s;
+
+File ./third_party/zlib/zconf.h:
+166:	typedef unsigned char Byte;
+169:	typedef unsigned char _Cz_Bytef;
+167:	typedef unsigned int _Cz_uInt;
+168:	typedef unsigned long _Cz_uLong;
+175:	typedef void * _Cz_voidpf;
+
+File ./third_party/zlib/zlib.h:
+142:	typedef _Cz_voidpf (*)(_Cz_voidpf, _Cz_uInt, _Cz_uInt) _Cz_alloc_func;
+143:	typedef void (*)(_Cz_voidpf, _Cz_voidpf) _Cz_free_func;
+163:	typedef struct z_stream_s z_stream;
+147:	struct z_stream_s;
+165:	typedef z_stream * z_streamp;
+
+File /home/jart/cosmo/<built-in>:
+	struct __va_list_tag;
+
+File libc/calls/CPU_COUNT.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/close-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/close.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/createfileflags.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/dup-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/fcntl-sysv.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/finddebugbinary.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/fixenotdir.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/fixupnewfd.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/fstat-metal.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/fstat-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/fstat-sysv.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/fstat.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/getcpucount.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/getcwd.greg.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/getprogramexecutablename.greg.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/getuid-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/issetugid.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/lseek-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/lseek.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/metaflock.c:
+	__int128
+	__int128 unsigned
+38:	struct flock_freebsd;
+24:	struct flock_linux;
+53:	struct flock_netbsd;
+46:	struct flock_openbsd;
+31:	struct flock_xnu;
+	int
+	long
+	long double
+22:	union metaflock;
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/metalfile.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/mkntpath.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/mkntpathat.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/open-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/open.c:
+	typedef struct __va_list_tag [1] __builtin_va_list;
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/openat-metal.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/openat-sysv.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/openat.c:
+	_Bool
+	typedef struct __va_list_tag [1] __builtin_va_list;
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/perror.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/read-nt.c:
+119:	struct Keystroke;
+125:	struct Keystrokes;
+80:	struct VirtualKey;
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/read.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/readv-metal.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/readv-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/readv-serial.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/readv.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/readwrite-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/releasefd.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/sched_getcpu.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/secure_getenv.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/setfl.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/stat2cosmo.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/sysctl.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/tinyprint.c:
+	_Bool
+	typedef struct __va_list_tag [1] __builtin_va_list;
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/unassert.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/winexec.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/write-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/write.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/writev-metal.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/writev-nt.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/writev-serial.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/calls/writev.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/fmt/atoi.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/fmt/basename.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/__getauxval.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/__getenv.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/bzero.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/checkcancel.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/clock_gettime-mono.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/clock_gettime-nt.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/clock_gettime-sysv.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/clock_gettime-xnu.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/clock_gettime.c:
+	__int128
+	__int128 unsigned
+	char
+35:	typedef int (int, struct timespec *) clock_gettime_f;
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/clock_gettime_monotonic_nt.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/cosmo_futex.c:
+54:	struct CosmoFutex;
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/cosmo_once.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/createfile.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/createfilemapping.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/createthread.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/cursor.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/cxaatexit.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/cxablocks.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/cxafinalize.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/cxalock.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/deadlock.c:
+82:	struct DeadlockDetector;
+70:	struct LockEdge;
+80:	typedef struct LockEdge * _Atomic LockEdges;
+75:	struct VisitedLock;
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describebacktrace.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describedirfd.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describeerrnoresult.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describeflags.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describefutexop.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describeiovec.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describemapflags.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describemremapflags.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describeopenflags.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describeopenmode.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describeprotflags.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describesigset.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describestat.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describetimespec.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/describewhence.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/deviceiocontrol.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/directmap-metal.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/dll.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/dos2errno.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/exit.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/extend.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/fds.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned long long
+	unsigned short
+
+File libc/intrin/fds_lock.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/fds_lock_obj.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/flushfilebuffers.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/fnv.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/formatint32.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/formatoctal32.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/ftrace.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/ftrace_enabled.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/getenv.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/getfileattributes.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/getmainstack.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/getsafesize.greg.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/iscall.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/isworker.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/itoa16.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/kisdangerous.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/klog.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/kntisinheritable.greg.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/kntstdio.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/kprintf.greg.c:
+	_Bool
+	typedef struct __va_list_tag [1] __builtin_va_list;
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned long long
+	unsigned short
+
+File libc/intrin/kstarttsc.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/lengthuint64.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/magicu.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/mapanon.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/maps.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/mapshared.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/mapviewoffileex.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/memcmp.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+26:	typedef char __attribute__ ((vector_size(16))) xmm_t;
+
+File libc/intrin/memmove.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+27:	typedef long long __attribute__ ((vector_size(2))) xmm_a;
+26:	typedef long long __attribute__ ((vector_size(2))) xmm_t;
+
+File libc/intrin/memrchr.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+25:	typedef char __attribute__ ((vector_size(16))) xmm_t;
+
+File libc/intrin/memset.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+28:	typedef long long __attribute__ ((vector_size(2))) xmm_a;
+27:	typedef char __attribute__ ((vector_size(16))) xmm_t;
+
+File libc/intrin/mman.greg.c:
+59:	struct ReclaimedPage;
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/mmap.c:
+88:	struct DirectMap;
+	_Bool
+	typedef struct __va_list_tag [1] __builtin_va_list;
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/mprotect-sysv.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/mprotect.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/munmap-metal.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/munmap-sysv.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/nocolor.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/nomultics.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/oldstack.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pagesize.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/popcnt.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/promises.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/prot2nt.greg.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthread_delay_np.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthread_mutex_lock.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthread_mutex_unlock.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthread_mutex_wipe_np.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthread_pause_np.c:
+	__int128
+	__int128 unsigned
+	char
+	double
+	float
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned long long
+	unsigned short
+
+File libc/intrin/pthread_setcancelstate.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthread_static.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthread_syshand.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthread_tid.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthread_yield_np.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthreadlist.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/pthreadlock.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/reopenfile.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/reservefd.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/rlimitstack.c:
+	_Bool
+	__int128
+	__int128 unsigned
+31:	struct atomic_rlimit;
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sig.c:
+78:	struct SignalFrame;
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sigaddset.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sigblock.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sigcountset.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sigcrashsig.c:
+62:	struct CrashSig;
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sigemptyset.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sighandrvas.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sigismember.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sigproc.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sigprocmask-sysv.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/stdio.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/stpcpy.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+24:	typedef char __attribute__ ((vector_size(16))) xmm_t;
+23:	typedef char __attribute__ ((vector_size(16))) xmm_u;
+
+File libc/intrin/strace_enabled.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/stracef.greg.c:
+	typedef struct __va_list_tag [1] __builtin_va_list;
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/strchr.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+35:	typedef char __attribute__ ((vector_size(16))) xmm_t;
+
+File libc/intrin/strcmp.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/strcpy.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+24:	typedef char __attribute__ ((vector_size(16))) xmm_t;
+23:	typedef char __attribute__ ((vector_size(16))) xmm_u;
+
+File libc/intrin/strlen.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/strncmp.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/strsignal.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/strsignal_r.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sys_gettid.greg.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/sys_umtx_timedwait_uint.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/terminatethisprocess.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/timespec_add.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/timespec_cmp.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/timespec_frommillis.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/timespec_fromnanos.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/timespec_sub.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/timespec_subz.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/timespec_tomicros.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/timespec_tomillis.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/tls.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/tlsmorphed.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/tpenc.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/tree.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/tree.h:
+13:	struct Tree;
+20:	typedef int (const struct Tree *, const struct Tree *) tree_cmp_f;
+
+File libc/intrin/ucontext.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/ulock.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/umask.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/unmapviewoffile.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/unsetenv.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/vdsofunc.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/virtualalloc.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/virtualallocex.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/virtualmax.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/virtualprotect.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/virtualprotectex.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/waitformultipleobjects.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/windowsdurationtotimespec.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/windowstimetotimespec.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/winerr.greg.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/wintlsinit.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/intrin/x86.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/mem/calloc.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/mem/free.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/mem/malloc.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/nexgen32e/envp.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/nexgen32e/kbase36.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/nexgen32e/ktens.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/nexgen32e/ktolower.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/nexgen32e/program_executable_name.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/nexgen32e/runlevel.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/cxa_thread_atexit.c:
+27:	struct Dtor;
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/enable_tls.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/exit.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/ftrace_install.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/ftrace_stackdigs.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/ftraceinit.greg.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/ftracer.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/getdosargv.c:
+24:	struct DosArgv;
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/getdosenviron.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/getsymbol.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/getsymboltable.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/hook.greg.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+27:	typedef unsigned char code_t;
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/inflate.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/interceptflag.greg.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/jit.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/morph.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/morph_tls.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+26:	typedef char __attribute__ ((vector_size(16))) xmm_t;
+
+File libc/runtime/opensymboltable.greg.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/pthread_keys.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/set_tls.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/straceinit.greg.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/winmain.greg.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-access.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-close.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-fcntl.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-find.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-fstat.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-get.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-inode.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-mmap.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-normpath.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-notat.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-open.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-parseuri.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-read.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-seek.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-stat-impl.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/runtime/zipos-stat.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/alloc.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fdopen.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fflush.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fflush_unlocked.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/flockfile.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fopen.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fopenflags.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fread.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fread_unlocked.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fseek_unlocked.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/funlockfile.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fwrite.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/fwrite_unlocked.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/rewind.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/setbuf.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/setvbuf.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/stdin.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/stdio/stdout.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/dosdatetimetounix.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/getzipcdiroffset.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/getzipcdirrecords.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/getzipcfilemode.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/getzipcfileoffset.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/getzipcfiletimestamps.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/getzipeocd.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+21:	typedef char __attribute__ ((vector_size(16))) v16qi;
+23:	typedef long long __attribute__ ((vector_size(2))) v2di;
+22:	typedef short __attribute__ ((vector_size(8))) v8hi;
+
+File libc/str/getziplfilecompressedsize.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/getziplfileuncompressedsize.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/iscntrl.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/isgraph.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/isspace.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/isutf8.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/isxdigit.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/iszipeocd32.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/iszipeocd64.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/kmonthyearday.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/locale.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/longsort.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/memrchr16.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+24:	typedef unsigned short __attribute__ ((vector_size(8))) xmm_t;
+
+File libc/str/smoothsort.c:
+36:	struct SmoothSort;
+	__int128
+	__int128 unsigned
+	char
+34:	typedef int (*)(const void *, const void *, void *) cmpfun;
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/startswith.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/strlcat.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/strlcpy.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/strlen16.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+22:	typedef unsigned short __attribute__ ((vector_size(8))) xmm_t;
+
+File libc/str/strrchr16.c:
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/strtol.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/todd.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/str/tprecode16to8.c:
+	__int128
+	__int128 unsigned
+	char
+	double
+	float
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned long long
+	unsigned short
+
+File libc/str/tprecode8to16.c:
+	__int128
+	__int128 unsigned
+	char
+	double
+	float
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned long long
+	unsigned short
+
+File libc/sysv/errno.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/sysv/strace.greg.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File libc/sysv/sysret.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/compiler_rt/clear_cache.c:
+	__int128
+	__int128 unsigned
+	char
+	complex double
+	complex float
+	complex long double
+	double
+	float
+	int
+	long
+	long double
+	long long
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned long long
+	unsigned short
+
+File third_party/dlmalloc/dlmalloc.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/dlmalloc/dlmalloc_abort.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/dlmalloc/global.inc:
+11:	struct malloc_params;
+
+File third_party/dlmalloc/headfoot.inc:
+88:	struct malloc_segment;
+111:	struct malloc_state;
+69:	struct malloc_tree_chunk;
+98:	typedef struct malloc_segment msegment;
+99:	typedef struct malloc_segment * msegmentptr;
+136:	typedef struct malloc_state * mstate;
+83:	typedef struct malloc_tree_chunk * tbinptr;
+82:	typedef struct malloc_tree_chunk * tchunkptr;
+
+File third_party/dlmalloc/locks.inc:
+74:	struct MallocLock;
+141:	typedef unsigned int bindex_t;
+142:	typedef unsigned int binmap_t;
+143:	typedef unsigned int flag_t;
+131:	struct malloc_chunk;
+139:	typedef struct malloc_chunk * mchunkptr;
+140:	typedef struct malloc_chunk * sbinptr;
+
+File third_party/dlmalloc/threaded.inc:
+84:	struct ThreadedMallocVisitor;
+
+File third_party/dlmalloc/vespene.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/nsync/common.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/nsync/mu.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/nsync/mu_semaphore.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/nsync/mu_semaphore_futex.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+40:	struct futex;
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/nsync/mu_semaphore_sem.c:
+	_Bool
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+44:	struct sem;
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/nsync/notice.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/nsync/panic.c:
+	__int128
+	__int128 unsigned
+	char
+	int
+	long
+	long double
+	short
+	signed char
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+
+File third_party/puff/puff.c:
+	__int128
+	__int128 unsigned
+	char
+239:	struct huffman;
+	int
+	long
+	long double
+	short
+	signed char
+131:	struct state;
+	unsigned char
+	unsigned int
+	unsigned long
+	unsigned short
+Warning: 'set logging off', an alias for the command 'set logging enabled', is deprecated.
+Use 'set logging enabled off'.
+

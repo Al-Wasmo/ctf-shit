@@ -1,0 +1,337 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "pricelessl3ak.apk"
+  ],
+  "treeExpansionsV2": [
+    "c:ctf.l3akctf.pricelessl3ak.h1832fla12"
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ctf.l3akctf.pricelessl3ak.v27a8612b"
+        },
+        "newName": "DATA_CLASS"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "D.d",
+          "shortId": "a:I"
+        },
+        "newName": "_9"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "D.d",
+          "shortId": "b:Ljava/lang/Object;"
+        },
+        "newName": "HOLDER"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "X.h",
+          "shortId": "b:Ljava/lang/Object;"
+        },
+        "newName": "C_OBJ"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "X.h",
+          "shortId": "c:Ljava/lang/Object;"
+        },
+        "newName": "ENC"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "A.c",
+          "shortId": "g([BJ)[B"
+        },
+        "newName": "DEC_1"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "A.c",
+          "shortId": "g([BJ)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "ENC"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "A.c",
+          "shortId": "g([BJ)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "INTENT_FLAGS"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "A.c",
+          "shortId": "h(LD/d;Ljava/lang/String;Ljava/util/ArrayList;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "LOGGERR"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "A.c",
+          "shortId": "h(LD/d;Ljava/lang/String;Ljava/util/ArrayList;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "FLAG"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "A.c",
+          "shortId": "h(LD/d;Ljava/lang/String;Ljava/util/ArrayList;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "PRASED_ENC"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "A.c",
+          "shortId": "j([B)Ljava/util/ArrayList;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "ENC"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "A.c",
+          "shortId": "j([B)Ljava/util/ArrayList;"
+        },
+        "newName": "PARSE_ENC"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "D.d",
+          "shortId": "\u003cinit\u003e(ILjava/lang/Object;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "_9"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "D.d",
+          "shortId": "\u003cinit\u003e(ILjava/lang/Object;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "HOLDER"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "D.d",
+          "shortId": "v(Ljava/lang/String;)V"
+        },
+        "newName": "LOG"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ctf.l3akctf.pricelessl3ak.h1832fla12",
+          "shortId": "onNewIntent(Landroid/content/Intent;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "HOLDER"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ctf.l3akctf.pricelessl3ak.h1832fla12",
+          "shortId": "onNewIntent(Landroid/content/Intent;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "ENC"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ctf.l3akctf.pricelessl3ak.h1832fla12",
+          "shortId": "onNewIntent(Landroid/content/Intent;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458753
+        },
+        "newName": "_40000"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "A.a",
+      "subPath": "java",
+      "caret": 257,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "A.f",
+      "subPath": "java",
+      "caret": 638,
+      "view": {
+        "x": 0,
+        "y": 4
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ctf.l3akctf.pricelessl3ak.h1832fla12",
+      "subPath": "java",
+      "caret": 264,
+      "view": {
+        "x": 0,
+        "y": 186
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "D.d",
+      "subPath": "java",
+      "caret": 8661,
+      "view": {
+        "x": 0,
+        "y": 3626
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "A.c",
+      "subPath": "java",
+      "caret": 4765,
+      "view": {
+        "x": 0,
+        "y": 1581
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ctf.l3akctf.pricelessl3ak.v27a8612b",
+      "subPath": "java",
+      "caret": 211,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "X.c",
+      "subPath": "java",
+      "caret": 1252,
+      "view": {
+        "x": 0,
+        "y": 126
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "X.f",
+      "subPath": "java",
+      "caret": 3787,
+      "view": {
+        "x": 0,
+        "y": 1170
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "/home/t4k1/.cache/jadx/projects/pricelessl3ak-7e69f2e60bcf81f3dc87592d924ec2d3",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "searchResourcesFilter": "*",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}

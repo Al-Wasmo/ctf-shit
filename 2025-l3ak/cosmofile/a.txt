@@ -1,0 +1,1702 @@
+MZqFpD='
+' <<'@'
+m=$(uname -m 2>/dev/null) || m=x86_64
+if [ "$m" = x86_64 ] || [ "$m" = amd64 ]; then
+o="$(command -v "$0")"
+[ x"$1" != x--assimilate ] && type ape >/dev/null 2>&1 && exec ape "$o" "$@"
+exec 7<> "$o" || exit 121
+printf '\177ELF\2\1\1\011\0\0\0\0\0\0\0\0\2\0\076\0\1\0\0\0\167\025\100\000\000\000\000\000\020\011\000\000\000\000\000\000\000\000\000\000\000\000\000\000\165\312\1\1\100\0\070\0\005\000\0\0\000\000\000\000' >&7
+exec 7<&-
+[ -d /Applications ] && dd if="$o" of="$o" bs=8 skip=365      count=66       conv=notrunc 2>/dev/null
+[ x"$1" = x--assimilate ] && exit 0
+exec "$0" "$@"
+exit $?
+echo error: this ape binary only supports x86_64 >&2
+exit 1
+error: 
+e820
+oldcpu
+fXf9
+PAMSf
+r5f9
+XQf1
+|0 H9
+OpenBSD
+NetBSD
+.text
+`.rdata
+@.data
+__PAGEZERO
+__TEXT
+__RODATA
+__DATA
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+M;~(
+M;~ s
+([A\A]A^A_]
+AWAVAUATSH
+2J9t
+[A\A]A^A_]
+AWAVAUATSH
+H[A\A]A^A_]
+ATSH
+[A\]
+^_Sj
+vRE1
+t8<cu/D
+^_WV
+^_WV
+^_WV
+^_WV
+^_WV
+^_WV
+^_WV
+"+4=j
+xt-WV1
+PPPPPj
+^_WV
+^_WVD
+^_WV
+^_WV
+AUATSH
+[A\A]]
+C`XZ
+AVAUATSH
+[A\A]A^]
+[A\A]A^]
+AWAVAUATSH
+X[A\A]A^A_]
+X[A\A]A^A_]
+AVAUATSH
+Genuu
+Authu
+ZY[A\A]A^]
+AVAUATSH
+ueHc
+UUUUH
+[A\A]A^]
+WVSH
+[^_]
+AWAVAUATWVSH
+L$ I
+\$(H
+d$ A
+D$ A
+.comH
+AWAVAUATWVSH
+[^_A\A]A^A_]
+t5~#<
+t5~#<
+AQAPH
+AWAVAUATSH
+#=U;
+X[A\A]A^A_]
+X[A\A]A^A_]
+AUATSH
+r7L9
+[A\A]]
+tQL9
+[A\A]]
+Hc5]
+ATWVSH
+0[^_A\]
+C(E1
+ATWVSH
+\$ E1
+[^_A\]
+AQAPI
+AWAVAUATSH
+t-Ic
+8[A\A]A^A_]
+UUUU
+AWAVAUATSH
+([A\A]A^A_]
+skUH
+AVAUATSH
+[A\A]A^]
+[A\A]A^]
+wwwwH
+AWAVAUATSH
+UUUUL
+[A\A]A^A_]
+ffffL
+wwwwH
+AVAUATSH
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+ATSH
+H;=Mh
+P[A\]
+P[A\]
+AVAUATSH
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+[A\A]A^]
+AWAVAUATSH
+([A\A]A^A_]
+AUATSH
+[A\A]]
+AUATSH
+t+E1
+[A\A]]
+[A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+tTHc
+AVAUATSH
+@u4f
+ [A\A]A^]
+ [A\A]A^]
+AUATSH
+tAE1
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+AWAVAUATSH
+\$`M
+l$XI
+8[A\A]A^A_]
+AWAVAUATSH
+H[A\A]A^A_]
+AUATSH
+[A\A]]
+&t!w
+AWAVAUATSH
+L;#r
+([A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AUATSH
+[A\A]]
+ATSH
+t;v&
+0[A\]
+0[A\]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+L;#r
+([A\A]A^A_]
+AWAVAUATSH
+AVAUH
+[A\A]A^A_]
+AQAPH
+AQAPH
+AUATSH
+[A\A]]
+[A\A]]
+u$UH
+AVAUATSH
+AUATSH
+u1Lc
+AUATSH
+D$8H
+[A\A]]
+[A\A]]
+AWAVAUATSH
+l$(A
+|$PH
+H!ZXH
+ATSH
+T$8H
+T$8H
+[A\]
+ATSH
+\$P[A\]
+AWAVAUATSH
+u1D;%
+[A\A]A^A_]
+AWAVAUATWVSH
+[^_A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+L;b(t
+[A\A]A^A_]
+[A\A]A^A_]
+WVSH
+|$@H
+[^_]
+D$?;
+D$?;
+|$?1
+|$?1
+|$?1
+AWAVAUATSH
+|$@H
+umH9
+D$8M!
+AWAVAUATSH
+l$XD
+|$PL
+[A\A]A^A_]
+ATSA
+[A\]
+[A\]
+ATSH
+u@L9
+[A\]
+[A\]
+AVAUATSH
+[A\A]A^]
+AVAUATSH
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+<$\t
+ATSI
+[A\]
+x"Hc
+H;=`
+(P D
+(X0D
+(`@D
+(hPD
+(p`D
+(xpH
+AQAPH
+.uCL
+\t:I9
+/tbL
+.u>H
+.tIf
+\u&O
+AWAVAUATSH
+<\tO</tK
+[A\A]A^A_]
+<$\u
+[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+L;(t,M
+[A\A]A^]
+ATSH
+thE1
+[A\]
+ATSH
+[A\]
+[A\]
+AVAUATSI
+[A\A]A^]
+AWAVAUATSH
+t3M9
+H[A\A]A^A_]
+D;K 
+AVAUATSI
+[A\A]A^]
+AWAVAUATSH
+8[A\A]A^A_]
+}(H)
+AVAUATSH
+{(L9
+[A\A]A^]
+ATSA
+AWAVAUATSH
+D0.H
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+AUATSH
+[A\A]]
+~@@f
+AVAUATSH
+SPVAUA
+[A\A]A^]
+AWAVAUATSH
+.strtab
+H[A\A]A^A_]
+SYMT
+[8fE
+P(H9
+I9V(r I
+v H9
+9AHt=9ALr
+F(A+F A
+ATSH
+[A\]
+LcG0
+G4D9
+G0D)
+AWAVAUATSH
+W(H;W 
+[A\A]A^A_]
+w0E)
+g4D)
+[A\A]A^A_]
+AWAVAUATSH
+u1Mc
+[A\A]A^A_]
+AWAVAUATSH
+t"Ic
+[A\A]A^A_]
+4(D9
+AWAVAUATSH
+[A\A]A^A_]
+xZUH
+AUATSH
+t<eH
+[A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+t5E1
+ELFt8
+[A\A]A^A_]
+.strtab
+M92u
+8_uT1
+AUATSH
+[A\A]]
+ATSH
+ [A\]
+`t[H
+ [A\]
+ [A\]
+#[A\]
+AVAUATSHc
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+yuXA
+AVAUATSH
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+s/H)
+[A\A]A^A_]
+~bHc
+yuVA
+u$Hc
+AVAUATSA
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+AVh<
+AVAUATSH
+xOHc
+H;=d
+[A\A]A^]
+AUATSH
+yu`I9
+[A\A]]
+[A\A]]
+AVAUATSA
+[A\A]A^]
+AVAUATSH
+[A\A]A^]
+tqUH
+AUATSH
+[A\A]]
+[A\A]]
+ATSI
+[A\]
+[A\]
+AWAVAUATSH
+tCf%
+[A\A]A^A_]
+AWAVAUATSI
+[A\A]A^A_]
+SAWI
+AVAUATSI
+[A\A]A^]
+AVAUATSH
+vH9\
+vH9\
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+ATSH
+[A\]
+AVAUATSH
+[A\A]A^]
+t!UH
+H97t
+t'eH
+ATSH
+[A\]
+[A\]
+AWAVAUATSH
+([A\A]A^A_]
+([A\A]A^A_]
+ATSD
+rN[A\]
+[A\]
+HcB H
+HcB H
+ v6H
+taH9
+u+H9
+@88t
+u/H9
+@:8t
+AVAUATSI
+[A\A]A^]
+ATSH
+[A\]
+AQMc
+AUATSH
+[A\A]]
+[A\A]]
+[A\A]]
+Hc=`-
+AUATSH
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+Hc5?&
+H[A\A]A^A_]
+AWAVAUATSH
+t@HcE
+X[A\A]A^A_]
+T$(H
+T$(A
+ATSH
+[A\]
+[A\]
+AWAVAUATSH
+40H!
+8[A\A]A^A_]
+ATSH
+ [A\]
+AWAVAUATSH
+~mHc
+RATAWD
+[A\A]A^A_]
+uwHcE
+AWAVAUATSH
+~THc
+[A\A]A^A_]
+AUATSH
+~#Lc
+[A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+Lch 1
+L$ L
+Lcp L
+T$ L
+AUATSH
+[A\A]]
+t&eH
+ATSHc
+[A\]
+[A\]
+AWAVAUATSH
+[A\A]A^A_]
+AUATSH
+[A\A]]
+t'eH
+vAUH
+t3H9p
+AVAUATSH
+[A\A]A^]
+ATSH
+[A\]
+[A\]
+AVAUATSI
+[A\A]A^]
+6[A\A]A^]
+ATSH
+[A\]
+[A\]
+tPeH
+AUATSH
+[A\A]]
+AUATSH
+C L9
+[A\A]]
+AVAUATSH
+[A\A]A^]
+AUATSH
+[A\A]]
+AUATSH
+JJI;
+I9u 
+M(I9
+[A\A]]
+[A\A]]
+[A\A]]
+JJI9
+I;u tsI
+ATSH
+H9W(
+H9W ttL
+[A\]
+[A\]
+[A\]
+YJJ9
+I9T$ 
+T$(I9
+[A\]
+JJJ9
+I9T$ t'1
+AWAVAUATSH
+8[A\A]A^A_]
+M9s 
+QJM9
+L9q 
+I(I9
+M9r 
+ATSH
+H9s 
+HJH9
+I9s 
+K(M9
+t!L9
+[A\]
+H9{(
+[ I9
+HJH9
+I9|$ 
+L$(M9
+[A\]
+H9s 
+t"M9
+I9|$ 
+I;s t(I
+AWAVAUATSH
+I9F0s
+([A\A]A^A_]
+AWAVAUATSH
+r$H)
+[A\A]A^A_]
+I9|$(
+I9|$ 
+IJI9
+I9~ 
+^(M9
+Y0f.
+L3%i
+l8 L
+I;T$
+[A\A]A^A_]
+L$(I
+A!<$
+KJK9
+I9~ t%1
+A!|$
+AWAVAUATSH
+D _I!
+t0>M!
+D _I!
+[A\A]A^A_]
+N H9
+p9L9
+vXL9
+S0I9
+[A\A]A^A_]
+[A\]
+AWAVAUATSH
+H9G@
+[A\A]A^A_]
+l$0I
+D$8H
+HJL9
+M;e 
+}(L9
+D$ H
+D$(H
+D$(I
+L$(H
+D$8H
+HJL;
+D$ H
+L$8L9
+M;e t#1
+AVAUATSI
+[A\A]A^]
+H9G@
+AWAVAUATSH
+H9G@
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+I9D$@
+[A\A]A^A_]
+v H9
+AWAVAUATSH
+I9D$@
+[A\A]A^A_]
+u H9
+AUATSH
+I;T$@
+I9\$ 
+[A\A]]
+I9t$(
+T$ I9
+HJI9
+I9s 
+C(I9
+[A\A]]
+HJI9
+I9Z 
+B(I9
+\$(H
+I9\$ tlI9T$0
+\$ H
+@JK9
+I9s 
+A!D$
+@JK9
+I;Z t&E1
+A!D$
+AWAVAUATSH
+I;V@
+[A\A]A^A_]
+AWAVAUATSH
+I;V@
+[A\A]A^A_]
+AWAVAUATSH
+H9F@
+([A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+AWAVAUATSH
+D$PH
+T$PH
+D$PH
+([A\A]A^A_]
+tLUH
+ATSI
+t)eH
+[A\]
+[A\]
+t&~-Hc
+/u$H
+AWAVAUATSH
+|7.H
+xlHc
+8L2-u
+([A\A]A^A_]
+([A\A]A^A_]
+AVAUATSI
+[A\A]A^]
+t0L)
+[A\A]A^]
+AUATSH
+[A\A]]
+ATSH
+t0.H
+[A\]
+AWAVAUATSH
+[A\A]A^A_]
+D8.H
+AWAVAUATSH
+([A\A]A^A_]
+AWAVAUATSH
+L$@M
+L$8I
+l$ M
+D$(H
+[A\A]A^A_]
+\$@B
+AWAVAUATSH
+L;=P
+B0H;
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AUATSH
+puSI
+[A\A]]
+[A\A]]
+AWAVAUATSH
+([A\A]A^A_]
+sGL)
+([A\A]A^A_]
+AVAUATSI
+[A\A]A^]
+[A\A]A^]
+AWAVAUATSH
+([A\A]A^A_]
+$uqL
+t)UH
+ATSI
+H;F(t
+[A\]
+v0H9
+t$@H
+AUATSH
+K@H9
+[A\A]]
+[A\A]]
+AWAVAUATSH
+8[A\A]A^A_]
+tpM9
+I9E t
+I9E 
+ATSH
+[A\]
+AUATSH
+[A\A]]
+[A\A]]
+AVAUATSI
+[A\A]A^]
+AUATSH
+[A\A]]
+x*Hc
+xu@H
+AVAUATSH
+[A\A]A^]
+AUATSH
+0u}H
+[A\A]]
+ATS9=
+[A\]
+[A\]
+[A\]
+AUATSH
+([A\A]]
+oNHfH
+oFhfH
+GxH9
+OxH;PX
+nN f
+H(Hc
+~FpfH
+Hc6fH
+nRtf
+H(HcJp
+~B`fH
+nJ f
+O(Hc
+~BpfH
+nndf
+H(HcN`
+~FPfH
+AWAVAUATSH
+t%IcG
+([A\A]A^A_]
+AWAVAUATSH
+8[A\A]A^A_]
+B8H9
+ucH;L
+0ryH9
+AUATSH
+[A\A]]
+AWAVAUATSH
+8[A\A]A^A_]
+AWAVAUATSH
+H[A\A]A^A_]
+H[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AUATSH
+[A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+8[A\A]A^A_]
+AWAVAUATSH
+D9%dt
+[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+ t D
+tQUH
+ATSH
+[A\]
+[A\]
+ATSH
+x`tNHc
+[A\]
+[A\]
+ATSH
+ [A\]
+ [A\]
+AVAUATSI
+[A\A]A^]
+[A\A]A^]
+ttUH
+ATSH
+[A\]
+AWAVAUATSH
+x!Mc
+8[A\A]A^A_]
+8[A\A]A^A_]
+AVAUATSH
+47L9
+Hc5)B
+[A\A]A^]
+[A\A]A^]
+AWAVAUATSH
+s&L9
+s!M)
+[A\A]A^A_]
+[A\]
+[A\]
+ATSH
+[A\]
+[A\]
+AWAVAUATSH
+8[A\A]A^A_]
+8[A\A]A^A_]
+8[A\A]A^A_]
+AVAUATSI
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+ATSH
+[A\]
+[A\]
+ATSI
+[A\]
+AWAVATSI
+[A\A^A_]
+[A\A^A_]
+t%eH
+AUATSH
+[A\A]]
+AVAUATSH
+P8fE
+[A\A]A^]
+[A\A]A^]
+*!Nb
+)@@H
+pXfH
+AUATH
+A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+([A\A]A^A_]
+F(fH
+FhfH
+H;xxt
+AUATSH
+[A\A]]
+[A\A]]
+YOMi
+ATSH
+[A\]
+)P D
+)X0D
+)`@D
+)hPD
+)p`D
+)xpH
+(P D
+(X0D
+(`@D
+(hPD
+(p`D
+(xpH
+AWAVAUATSH
+8[A\A]A^A_]
+UUUUUUUUH!
+33333333H!
+95P9
+u/H9
+f;8t
+u+H9
+f;8t
+eeeef
+eeeef
+AWAVAUATSH
+[A\A]A^A_]
+ATSH
+r(Hc5
+[A\]
+AWAVAUATSH
+<ZvpH
+Hc@ 
+[1;A
+s3M9
+        
+[A\A]A^A_]
+AVAUATSH
+w2Pj
+Lc%7
+x+Ic
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+AVAUATSI
+[A\A]A^]
+tgUH
+HcJ H
+tGUH
+t7Hc
+c~HM
++w 1
+ATSI
+}EH)
+[A\]
+ATSH
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
+[A\]
+[A\]
+?tcUH
+AUATSH
+[A\A]]
+ATSH
+HhH9
+[A\]
+~{UH
+PQRWVAPAQAR
+AZAYAX^_ZYX
+AWAVAUATSH
+[A\A]A^A_]
+HhH9
+METAL=1
+/proc/self/exe
+[[ cosmofile ]]
+1. Read a secret of the universe
+2. Exit
+/tmp/cosmofile.txt
+Failed to open file
+Here is a secret of the universe:
+... huh?
+It's not here...
+Reading from cosmofile:
+Content of cosmofile:
+Nice, now you can see the universe in a different light!
+Exiting...
+Whoa whoa whoa... you can't just hide the secret of the universe like that!
+Just kidding, that's not really a secret...
+Invalid choice. Please try again.
+libc/stdio/flockfile.c
+f != NULL
+_MASK
+%rSYS %6P %6H %'18T exit(%d)
+--ftrace
+.symtab.amd64
+.symtab
+--strace
+STRACE
+libc/calls/close.c
+_weaken(__zipos_close)
+COMDBG
+_etext
+.com.dbg
+/usr/bin/ape
+.ape-
+/dev/fd/
+/proc/self/fd/
+/proc/self/exe
+/proc/curproc/file
+libc/calls/openat.c
+!sys_unlinkat(dirfd, path, 0)
+Unknown error
+[31;1munassert(
+) failed
+[0m (cosmoaddr2line 
+advapi32.dll
+Invalid argument
+Function not implemented
+Operation not permitted
+No such file or directory
+No such process
+Interrupted system call
+I/O error
+No such device or address
+Arg list too long
+Exec format error
+Bad file number
+No child processes
+Try again
+Out of memory
+Permission denied
+Bad address
+Block device required
+Device or resource busy
+File exists
+Cross-device link
+No such device
+Not a directory
+Is a directory
+File table overflow
+Too many open files
+Not a typewriter
+Text file busy
+File too large
+No space left on device
+Quota exceeded
+Illegal seek
+Read-only file system
+Too many links
+Broken pipe
+Math argument out of domain of func
+Math result not representable
+Resource deadlock would occur
+File name too long
+No record locks available
+Directory not empty
+Too many symbolic links encountered
+No message of desired type
+Identifier removed
+Protocol error
+Value too large for defined data type
+Illegal byte sequence
+Too many users
+Socket operation on non-socket
+Destination address required
+Message too long
+Protocol wrong type for socket
+Protocol not available
+Protocol not supported
+Socket type not supported
+Operation not supported
+Operation not supported on transport endpoint
+Protocol family not supported
+Address family not supported by protocol
+Address already in use
+Cannot assign requested address
+Network is down
+Network is unreachable
+Network dropped connection because of reset
+Software caused connection abort
+Connection reset by peer
+No buffer space available
+Transport endpoint is already connected
+Transport endpoint is not connected
+Cannot send after transport endpoint shutdown
+Too many references: cannot splice
+Connection timed out
+Timer expired
+Connection refused
+Host is down
+No route to host
+Operation already in progress
+Operation now in progress
+Stale NFS file handle
+Object is remote
+Not a data message
+Operation Canceled
+Owner died
+State not recoverable
+Machine is not on the network
+Interrupted system call should be restarted
+File descriptor in bad state
+0123456789abcdef
+AT_FDCWD
+%s{%#.*hhs%s, %'zu}
+O_RDONLY
+O_WRONLY
+O_RDWR
+{.st_%s=%'ld
+, .st_blocks=%'lu/512
+mode
+, .st_%s=%#o
+nlink
+, .st_%s=%'lu
+, .st_%s=%lu
+, .st_%s=%#lx
+flags
+, .st_%s=%lx
+rdev
+blksize
+SEEK_SET
+SEEK_CUR
+SEEK_END
+_COSMO_FDS_V2
+_COSMO_FDS
+0123456789ABCDEF
+EUNKNOWN
+false
+true
+KPRINTF_LOG
+kprintf error: stack is about to overflow
+libc/intrin/stdio.c
+kernel32.dll
+COSMOPOLITAN_HEAP_COUNT
+COSMOPOLITAN_DISABLE_ZIPOS
+COSMOPOLITAN_INIT_ZIPOS
+libc/runtime/zipos-inode.c
+cfile >= 0
+libc/runtime/zipos-read.c
+y != SIZE_MAX
+third_party/nsync/mu.c
+result == ECANCELED
+!sys_sem_post (f->id)
+error: nsync panic: 
+libc/calls/fixupnewfd.c
+/zip
+libc/calls/metalfile.c
+copied_base != (void *)-1
+/dev/
+null
+urandom
+stdin
+stdout
+stderr
+BCryptPrimitives.dll
+EINVAL
+ENOSYS
+EPERM
+ESRCH
+EINTR
+ENXIO
+E2BIG
+ENOEXEC
+EBADF
+ECHILD
+EAGAIN
+ENOMEM
+EACCES
+EFAULT
+ENOTBLK
+EBUSY
+EEXIST
+EXDEV
+ENODEV
+ENOTDIR
+EISDIR
+ENFILE
+EMFILE
+ENOTTY
+ETXTBSY
+EFBIG
+ENOSPC
+EDQUOT
+ESPIPE
+EROFS
+EMLINK
+EPIPE
+EDOM
+ERANGE
+EDEADLK
+ENAMETOOLONG
+ENOLCK
+ENOTEMPTY
+ELOOP
+ENOMSG
+EIDRM
+EPROTO
+EOVERFLOW
+EILSEQ
+EUSERS
+ENOTSOCK
+EDESTADDRREQ
+EMSGSIZE
+EPROTOTYPE
+ENOPROTOOPT
+EPROTONOSUPPORT
+ESOCKTNOSUPPORT
+ENOTSUP
+EOPNOTSUPP
+EPFNOSUPPORT
+EAFNOSUPPORT
+EADDRINUSE
+EADDRNOTAVAIL
+ENETDOWN
+ENETUNREACH
+ENETRESET
+ECONNABORTED
+ECONNRESET
+ENOBUFS
+EISCONN
+ENOTCONN
+ESHUTDOWN
+ETOOMANYREFS
+ETIME
+ECONNREFUSED
+EHOSTDOWN
+EHOSTUNREACH
+EALREADY
+EINPROGRESS
+ESTALE
+EREMOTE
+EBADMSG
+EOWNERDEAD
+ENOTRECOVERABLE
+ENONET
+ERESTART
+ENODATA
+EBADFD
+CREAT
+EXCL
+TRUNC
+CLOEXEC
+NONBLOCK
+TMPFILE
+UNLINK
+DIRECTORY
+DIRECT
+APPEND
+NOFOLLOW
+ASYNC
+NOCTTY
+NOATIME
+SEARCH
+DSYNC
+RSYNC
+PATH
+VERIFY
+SHLOCK
+EXLOCK
+RANDOM
+SEQUENTIAL
+COMPRESSED
+INDEXED
+LARGEFILE
+SIGHUP
+SIGINT
+SIGQUIT
+SIGILL
+SIGTRAP
+SIGABRT
+SIGBUS
+SIGFPE
+SIGKILL
+SIGUSR1
+SIGSEGV
+SIGUSR2
+SIGPIPE
+SIGALRM
+SIGTERM
+SIGSTKFLT
+SIGCHLD
+SIGCONT
+SIGSTOP
+SIGTSTP
+SIGTTIN
+SIGTTOU
+SIGURG
+SIGXCPU
+SIGXFSZ
+SIGVTALRM
+SIGPROF
+SIGWINCH
+SIGIO
+SIGSYS
+SIGPWR
+SIGINFO
+SIGTHR
+SIGRTMAX
+SIGRTMIN
+SIGEMT
+__vdso_clock_gettime
+LINUX_2.6
+libc/intrin/cosmo_futex.c
+GetLastError () == ETIMEDOUT
+!rc || rc == -ENOENT
+libc/intrin/cursor.c
+FUTEX_WAIT
+FUTEX_WAKE
+FUTEX_REQUEUE
+FUTEX_WAIT_BITSET
+FUTEX_
+_PRIVATE
+|FUTEX_CLOCK_REALTIME
+ANONYMOUS
+SHARED
+FIXED
+FIXED_NOREPLACE
+HUGETLB
+CONCEAL
+LOCKED
+NORESERVE
+POPULATE
+GROWSDOWN
+MREMAP_
+MAYMOVE
+PROT_NONE
+READ
+WRITE
+GUARD
+PROT_
+timespec_max
+{%ld, %ld}
+libc/intrin/magicu.c
+magu.M || magu.s
+Terminating on 
+uncaught 
+masked 
+API-MS-Win-Core-Synch-l1-2-0.dll
+API-MS-Win-Core-Realtime-l1-1-1.dll
+third_party/nsync/common.c
+(w->flags & 0x2) != 0
+libc/intrin/pthread_syshand.c
+IsWindows() || IsXnuSilicon()
+%rSYS %6P %6H %'18T GetSymbolTableFromZip() 
+%rSYS %6P %6H %'18T inflate([%#.*hhs%s], %'zu, %#.*hhs%s, %'zu) 
+%rSYS %6P %6H %'18T OpenSymbolTable()% m
+error: APE is running on WIN32 inside WSL. You need to run: sudo sh -c 'echo -1 > /proc/sys/fs/binfmt_misc/WSLInterop'
+%rSYS %6P %6H %'18T close(%d) 
+ %d% m
+%rSYS %6P %6H %'18T fstat(%d, [%s]) 
+ %d% m
+%rSYS %6P %6H %'18T GetProgramExecutableName() 
+ %#s
+%rSYS %6P %6H %'18T issetugid() 
+%rSYS %6P %6H %'18T lseek(%d, %'ld, %s) 
+ %'ld% m
+%rSYS %6P %6H %'18T openat(%s, %#s, %s%s) 
+ %d% m
+%rSYS %6P %6H %'18T read(%d, [%#.*hhs%s], %'zu) 
+ %'zd% m
+%rSYS %6P %6H %'18T readv(%d, [%s], %d) 
+ %'ld% m
+%rSYS %6P %6H %'18T write(%d, %#.*hhs%s, %'zu) 
+ %'zd% m
+%rSYS %6P %6H %'18T writev(%d, %s, %d) 
+ %'ld% m
+%rSYS %6P %6H %'18T _longsort(%p, %'zu)
+%rSYS %6P %6H %'18T __cxa_finalize(%t, %p)
+%rSYS %6P %6H %'18T _Exit(%d)
+%rSYS %6P %6H %'18T getenv(%#s) 
+ %#s
+%rSYS %6P %6H %'18T memtrack compromised by hole punch oom
+%rSYS %6P %6H %'18T mmap(%p, %'zu, %s, %s, %d, %'ld) 
+ %p% m (%'zu bytes total)
+%rSYS %6P %6H %'18T mremap(%p, %'zu, %'zu, %s, %p) 
+ %p% m (%'zu bytes total)
+%rSYS %6P %6H %'18T munmap(%p, %'zu) 
+ %d% m (%'zu bytes total)
+refs != STDIO_FILE_USE_AFTER_FREE
+refs < CORRUPT_STDIO_FILE_OBJECT
+%rSYS %6P %6H %'18T created %d dlmalloc arenas for %d cpus
+error: dlmalloc aborted
+cosmoaddr2line 
+%rSYS %6P %6H %'18T _pthread_unkey(%t, %p)
+error: --ftrace failed to open symbol table
+error: need pledge(prot_exec) permission to code morph
+error: __morph_mprotect(%p, %#zx, %d) failed: errno=%d
+%rSYS %6P %6H %'18T __zipos_get(%#s) 
+ %d% m
+%rSYS %6P %6H %'18T negative zipos mmap offset
+%rSYS %6P %6H %'18T ZipOS bad flags
+%rSYS %6P %6H %'18T ZipOS bad protection
+opt_offset >= 0 || opt_offset == -1
+nsync_mu_semaphore_p (&w->sem) == 0
+checking a waiter condition while unlocked
+attempt to nsync_mu_unlock() an nsync_mu held in read mode
+attempt to nsync_mu_unlock() an nsync_mu not held in write mode
+third_party/nsync/mu_semaphore_futex.c
+futex_result == 0 || futex_result == EINTR || futex_result == EAGAIN || futex_result == ECANCELED || futex_result == EAGAIN
+cosmo_futex_wake ((_Atomic(int) *)&f->i, 1, 0) >= 0
+%rSYS %6P %6H %'18T sem_init(0, [%ld]) 
+%rSYS %6P %6H %'18T fcntl(%ld, F_DUPFD_CLOEXEC, 50) 
+%rSYS %6P %6H %'18T close(%ld) 
+%rSYS %6P %6H %'18T sem_wait(%ld) 
+ %d% m
+third_party/nsync/mu_semaphore_sem.c
+%rSYS %6P %6H %'18T sem_post(%ld) 
+ 0% m
+(file_mode = __sys_fcntl(fd, F_GETFD)) != -1
+!__sys_fcntl(fd, F_SETFD, file_mode | FD_CLOEXEC)
+(file_mode = __sys_fcntl(fd, F_GETFL)) != -1
+!__sys_fcntl(fd, F_SETFL, file_mode | O_NONBLOCK)
+%rSYS %6P %6H %'18T getcwd([%#hhs], %'zu) 
+ %d% m
+%rSYS %6P %6H %'18T console read error %d
+%rSYS %6P %6H %'18T futex(%t [%d], %s, %#x, %s) 
+%rSYS %6P %6H %'18T futex(%t [%d], %s, %d) 
+ %d woken
+atomic_fetch_add_explicit(&c->refs, 1, memory_order_relaxed) >= 0
+%rSYS %6P %6H %'18T mprotect(%p, %'zu, %s) 
+ %d% m
+%rSYS %6P %6H %'18T pthread_delay_np(%t)
+%rSYS %6P %6H %'18T %G set %d's event object
+%rSYS %6P %6H %'18T %G waking %d's futex
+. Pass --strace and/or ShowCrashReports() for details.
+%rSYS %6P %6H %'18T win32 vectored exception 0x%08Xu raising %G cosmoaddr2line %s %lx %s
+%rSYS %6P %6H %'18T ignoring %G
+%rSYS %6P %6H %'18T enqueing %G on %d
+%rSYS %6P %6H %'18T terminating on %G due to no handler
+%rSYS %6P %6H %'18T __sig_tramp(%G, %t) mask %s 
+%rSYS %6P %6H %'18T resetting %G handler
+%rSYS %6P %6H %'18T __sig_raise(%G, %t) mask %s
+%rSYS %6P %6H %'18T SuspendThread failed w/ %d
+%rSYS %6P %6H %'18T GetThreadContext failed w/ %d
+%rSYS %6P %6H %'18T SetThreadContext failed w/ %d
+%rFUN %6P %6H %'18T %'*ld %*s%t
+!((((uintptr_t)(w) & ~0x00fffffffffffff8) << (8)) | (((uintptr_t)(w) & ~0x00fffffffffffff8) >> (64 - (8))))
+DDDD
+PKPKPKPKPKPKPKPK
+SIGRTMIN
+:&;&e&f&c&`&" 
+%B&@&j&k&<&
+%$%a%b%V%U%c%Q%W%]%\%[%
+%4%,%
+%<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
+)"a"
+e"d" #!#
+ !"#$
+ !"#$
+]xEc
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+Cosmopolitan
+Copyright 2024 Justine Alexandra Roberts Tunney
+Permission to use, copy, modify, and/or distribute this software for
+any purpose with or without fee is hereby granted, provided that the
+above copyright notice and this permission notice appear in all copies.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL
+DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+puff (zlib License)
+Copyright 2002-2013 Mark Adler
+OpenBSD Strings (ISC)
+Copyright (c) 1998, 2015 Todd C. Miller <millert@openbsd.org>
+*NSYNC (Apache 2.0)
+Copyright 2016 Google, Inc.
+https://github.com/google/nsync
+Smoothsort (MIT License)
+Copyright 2011 Valentin Ochs
+Discovered by Edsger Dijkstra
+QueryInterruptTimePrecise
+QueryUnbiasedInterruptTimePrecise
+WaitOnAddress
+WakeByAddressAll
+WakeByAddressSingle
+ProcessPrng
+GetUserNameW
+AddVectoredExceptionHandler
+CancelIoEx
+CloseHandle
+CreateDirectoryW
+CreateEventW
+CreateFileMappingW
+CreateFileW
+CreateThread
+DeleteFileW
+DeviceIoControl
+DuplicateHandle
+FlushConsoleInputBuffer
+FlushFileBuffers
+FreeEnvironmentStringsW
+GetCommandLineW
+GetConsoleMode
+GetCurrentDirectoryW
+GetCurrentProcessId
+GetCurrentProcessorNumberEx
+GetCurrentThread
+GetCurrentThreadId
+GetEnvironmentStringsW
+GetEnvironmentVariableW
+GetFileAttributesW
+GetFileInformationByHandle
+GetFileInformationByHandleEx
+GetFileType
+GetFinalPathNameByHandleW
+GetLastError
+GetMaximumProcessorCount
+GetModuleFileNameW
+GetNumberOfConsoleInputEvents
+GetOverlappedResult
+GetProcessHeap
+GetProcessTimes
+GetStdHandle
+GetSystemInfo
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetTempPathW
+GetThreadContext
+GetThreadTimes
+GetVolumeInformationByHandleW
+HeapAlloc
+MapViewOfFileEx
+QueryUnbiasedInterruptTime
+ReOpenFile
+ReadConsoleInputW
+ReadFile
+ResumeThread
+SetConsoleCP
+SetConsoleCtrlHandler
+SetConsoleMode
+SetConsoleOutputCP
+SetEndOfFile
+SetEnvironmentVariableW
+SetEvent
+SetFilePointer
+SetLastError
+SetStdHandle
+SetThreadContext
+Sleep
+SuspendThread
+TerminateProcess
+TlsAlloc
+UnmapViewOfFile
+VirtualAllocEx
+VirtualFree
+VirtualProtectEx
+WaitForMultipleObjects
+WriteFile
+01/#%
+O@ARV$
+(?243
+B_&-
+. \+)"G
+F<<;
+goh#Y!z
+pq+Ts
+Z$dfe
+` G]["BU
+t>nm
+01/#%
+O@ARU$
+(?243
+Bb&V
+. `+)"G
+F\<;
+01/#%
+O@AYT$
+(?243
+B]&[
+. _+)"G
+F<<;
+01/#%
+O@AZ\$
+(?243
+Bh&-
+. d+)"G
+Fe<;
+1;2A1;5A1;6A(
+1;2B1;5B1;6B'
+1;2C1;5C1;6C%
+1;2D1;5D1;6D#
+1;2F1;5F1;6F$
+1;2H1;5H1;6H-
+2;2~2;5~2;6~.
+3;2~3;5~3;6~!
+5;2~5;5~5;6~"
+6;2~6;5~6;6~p
+1;2P11^
+1;6Pq
+1;2Q12^
+1;6Qr
+1;2R13^
+1;6Rs
+1;2S14^
+1;6St
+GenuntelineI
+/home/t4k1/Desktop/leak/cosmo/cosmofile.com.dbg
+/home/t4k1/Desktop/leak/cosmo/cosmofile
+AAAAAAAA
+Here is a secret of the universe:
+... huh?
+It's not here...
+Tx86_64
+/home/t4k1/Desktop/leak/cosmo/cosmofile
+SHELL=/bin/bash
+WINDOWID=39845899
+PYENV_HOOK_PATH=/home/t4k1/.pyenv/pyenv.d:/usr/etc/pyenv.d:/usr/local/etc/pyenv.d:/etc/pyenv.d:/usr/lib/pyenv/hooks:/home/t4k1/.pyenv/plugins/pyenv-virtualenv/etc/pyenv.d
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+PYENV_SHELL=bash
+XDG_CONFIG_DIRS=/etc/xdg/xdg-i3:/etc/xdg
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+LANGUAGE=en_US
+I3SOCK=/run/user/1000/i3/ipc-socket.1217
+DESKTOP_SESSION=i3
+KITTY_PID=98536
+PYENV_VERSION=system
+GTK_MODULES=gail:atk-bridge
+XDG_SEAT=seat0
+PWD=/home/t4k1/Desktop/leak/cosmo
+LOGNAME=t4k1
+XDG_SESSION_DESKTOP=i3
+XDG_SESSION_TYPE=x11
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+XAUTHORITY=/home/t4k1/.Xauthority
+KITTY_PUBLIC_KEY=1:&d?$I_$|6D;*DEj>%jb!nUN!ugwMW0?&qWxCy(Ap
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/t4k1
+GDM_LANG=en_US
+HOME=/home/t4k1
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+XDG_CURRENT_DESKTOP=i3
+KITTY_WINDOW_ID=1
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+CHROME_DESKTOP=code.desktop
+PYENV_DIR=/home/t4k1/Desktop/leak/cosmo
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+TERMINFO=/usr/lib/kitty/terminfo
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=t4k1
+DISPLAY=:0
+SHLVL=4
+XDG_VTNR=7
+XDG_SESSION_ID=c1
+LD_LIBRARY_PATH=/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib:
+XDG_RUNTIME_DIR=/run/user/1000
+PYENV_ROOT=/home/t4k1/.pyenv
+GTK3_MODULES=xapp-gtk3-module
+XDG_DATA_DIRS=/usr/share/i3:/home/t4k1/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+GDK_BACKEND=x11
+PATH=/home/t4k1/.pyenv/libexec:/home/t4k1/.pyenv/plugins/python-build/bin:/home/t4k1/.pyenv/plugins/pyenv-virtualenv/bin:/home/t4k1/.pyenv/plugins/pyenv-update/bin:/home/t4k1/.pyenv/plugins/pyenv-doctor/bin:/usr/local/bin:/usr/local/bin:/home/t4k1/.pyenv/shims:/home/t4k1/.pyenv/bin:/home/t4k1/tools/idapro-9.0:/home/t4k1/.local/bin:/usr/local/bin:/usr/local/bin:/home/t4k1/.pyenv/bin:/home/t4k1/tools/idapro-9.0:/home/t4k1/.local/bin:/usr/local/bin:/usr/local/bin:/home/t4k1/.pyenv/bin:/home/t4k1/tools/idapro-9.0:/home/t4k1/.local/bin:/usr/local/bin:/usr/local/bin:/home/t4k1/.pyenv/bin:/home/t4k1/tools/idapro-9.0:/home/t4k1/.local/bin:/home/t4k1/.cargo/bin:/home/t4k1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/t4k1/.foundry/bin:/home/t4k1/.foundry/bin:/home/t4k1/.foundry/bin:/home/t4k1/.foundry/bin
+GDMSESSION=i3
+ORIGINAL_XDG_CURRENT_DESKTOP=i3
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+KITTY_INSTALLATION_DIR=/usr/lib/kitty
+OLDPWD=/home/t4k1/Desktop/leak
+/home/t4k1/Desktop/leak/cosmo/cosmofile
+bemX
+__vdso_gettimeofday
+__vdso_time
+__vdso_clock_gettime
+__vdso_clock_getres
+__vdso_getcpu
+__vdso_sgx_enter_enclave
+linux-vdso.so.1
+LINUX_2.6
+Linux
+Linux
+[A\]1
+AUATSHc
+?I+S
+A\A]]1
+A\A]
+I+T$
+GCC: (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_d
+.dynamic
+.note
+.eh_frame_hdr
+.eh_frame
+.text
+.altinstructions
+.altinstr_replacement
+.comment

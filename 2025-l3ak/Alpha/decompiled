@@ -1,0 +1,966 @@
+--- Decrypted chunk #0 ---
+   0:   0f be d8                movsx  ebx, al
+   3:   0f b6 45 a0             movzx  eax, BYTE PTR [rbp-0x60]
+   7:   44 0f be e0             movsx  r12d, al
+   b:   0f b6 45 ac             movzx  eax, BYTE PTR [rbp-0x54]
+   f:   0f be d0                movsx  edx, al
+  12:   0f b6 45 ad             movzx  eax, BYTE PTR [rbp-0x53]
+  16:   0f be c0                movsx  eax, al
+  19:   89 d6                   mov    esi, edx
+  1b:   89 c7                   mov    edi, eax
+  1d:   e8 18 03 00 00          call   OR_FUNC
+  22:   44 89 e6                mov    esi, r12d
+  25:   89 c7                   mov    edi, eax
+  27:   e8 8c 03 00 00          call   XOR_FUNC
+  2c:   89 de                   mov    esi, ebx
+  2e:   89 c7                   mov    edi, eax
+  30:   e8 f6 01 00 00          call   MULT_FUNC
+  35:   3d 26 13 00 00          cmp    eax, 0x1326
+  3a:   0f 94 c0                sete   al
+  3d:   0f b6 d0                movzx  edx, al
+------------------------------------------------------------
+--- Decrypted chunk #1 ---
+   0:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+   4:   21 d0                   and    eax, edx
+   6:   85 c0                   test   eax, eax
+   8:   0f 95 c0                setne  al
+   b:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+   e:   0f b6 45 b4             movzx  eax, BYTE PTR [rbp-0x4c]
+  12:   0f be d8                movsx  ebx, al
+  15:   0f b6 45 b6             movzx  eax, BYTE PTR [rbp-0x4a]
+  19:   44 0f be e0             movsx  r12d, al
+  1d:   0f b6 45 aa             movzx  eax, BYTE PTR [rbp-0x56]
+  21:   0f be d0                movsx  edx, al
+  24:   0f b6 45 ae             movzx  eax, BYTE PTR [rbp-0x52]
+  28:   0f be c0                movsx  eax, al
+  2b:   89 d6                   mov    esi, edx
+  2d:   89 c7                   mov    edi, eax
+  2f:   e8 06 03 00 00          call   OR_FUNC
+  34:   44 89 e6                mov    esi, r12d
+  37:   89 c7                   mov    edi, eax
+  39:   e8 b3 00 00 00          call   SUB_FUNC
+  3e:   89 de                   mov    esi, ebx
+------------------------------------------------------------
+--- Decrypted chunk #2 ---
+   0:   89 c7                   mov    edi, eax
+   2:   e8 b1 03 00 00          call   XOR_FUNC
+   7:   83 f8 c0                cmp    eax, 0xffffffc0
+   a:   0f 94 c0                sete   al
+   d:   0f b6 d0                movzx  edx, al
+  10:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  14:   21 d0                   and    eax, edx
+  16:   85 c0                   test   eax, eax
+  18:   0f 95 c0                setne  al
+  1b:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  1e:   0f b6 45 a2             movzx  eax, BYTE PTR [rbp-0x5e]
+  22:   0f be d8                movsx  ebx, al
+  25:   0f b6 45 ac             movzx  eax, BYTE PTR [rbp-0x54]
+  29:   44 0f be e0             movsx  r12d, al
+  2d:   0f b6 45 aa             movzx  eax, BYTE PTR [rbp-0x56]
+  31:   0f be d0                movsx  edx, al
+  34:   0f b6 45 a7             movzx  eax, BYTE PTR [rbp-0x59]
+  38:   0f be c0                movsx  eax, al
+  3b:   89 d6                   mov    esi, edx
+  3d:   89 c7                   mov    edi, eax
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #3 ---
+   0:   e8 b3 03 00 00          call   XOR_FUNC
+   5:   44 89 e6                mov    esi, r12d
+   8:   89 c7                   mov    edi, eax
+   a:   e8 e2 00 00 00          call   SUB_FUNC
+   f:   89 de                   mov    esi, ebx
+  11:   89 c7                   mov    edi, eax
+  13:   e8 d9 00 00 00          call   SUB_FUNC
+  18:   83 f8 b9                cmp    eax, 0xffffffb9
+  1b:   0f 94 c0                sete   al
+  1e:   0f b6 d0                movzx  edx, al
+  21:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  25:   21 d0                   and    eax, edx
+  27:   85 c0                   test   eax, eax
+  29:   0f 95 c0                setne  al
+  2c:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  2f:   0f b6 45 ab             movzx  eax, BYTE PTR [rbp-0x55]
+  33:   0f be d8                movsx  ebx, al
+  36:   0f b6 45 b0             movzx  eax, BYTE PTR [rbp-0x50]
+  3a:   44 0f be e0             movsx  r12d, al
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #4 ---
+   0:   0f b6 45 a7             movzx  eax, BYTE PTR [rbp-0x59]
+   4:   0f be d0                movsx  edx, al
+   7:   0f b6 45 b4             movzx  eax, BYTE PTR [rbp-0x4c]
+   b:   0f be c0                movsx  eax, al
+   e:   89 d6                   mov    esi, edx
+  10:   89 c7                   mov    edi, eax
+  12:   e8 a1 03 00 00          call   XOR_FUNC
+  17:   44 89 e6                mov    esi, r12d
+  1a:   89 c7                   mov    edi, eax
+  1c:   e8 87 02 00 00          call   AND_FUNC
+  21:   89 de                   mov    esi, ebx
+  23:   89 c7                   mov    edi, eax
+  25:   e8 01 02 00 00          call   MULT_FUNC
+  2a:   3d e2 22 00 00          cmp    eax, 0x22e2
+  
+  2f:   0f 94 c0                sete   al
+  32:   0f b6 d0                movzx  edx, al
+  35:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  39:   21 d0                   and    eax, edx
+  3b:   85 c0                   test   eax, eax
+  3d:   0f 95 c0                setne  al
+------------------------------------------------------------
+--- Decrypted chunk #5 ---
+   0:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+   3:   0f b6 45 a7             movzx  eax, BYTE PTR [rbp-0x59]
+   7:   0f be d8                movsx  ebx, al
+   a:   0f b6 45 af             movzx  eax, BYTE PTR [rbp-0x51]
+   e:   44 0f be e0             movsx  r12d, al
+  12:   0f b6 45 a8             movzx  eax, BYTE PTR [rbp-0x58]
+  16:   0f be d0                movsx  edx, al
+  19:   0f b6 45 a1             movzx  eax, BYTE PTR [rbp-0x5f]
+  1d:   0f be c0                movsx  eax, al
+  20:   89 d6                   mov    esi, edx
+  22:   89 c7                   mov    edi, eax
+  24:   e8 02 02 00 00          call   MULT_FUNC
+  29:   44 89 e6                mov    esi, r12d
+  2c:   89 c7                   mov    edi, eax
+  2e:   e8 85 03 00 00          call   XOR_FUNC
+  33:   89 de                   mov    esi, ebx
+  35:   89 c7                   mov    edi, eax
+  37:   e8 ef 01 00 00          call   MULT_FUNC
+  3c:   90                      nop
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #6 ---
+   0:   3d 26 41 04 00          cmp    eax, 0x44126
+   5:   0f 94 c0                sete   al
+   8:   0f b6 d0                movzx  edx, al
+   b:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+   f:   21 d0                   and    eax, edx
+  11:   85 c0                   test   eax, eax
+  13:   0f 95 c0                setne  al
+  16:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  19:   0f b6 45 b4             movzx  eax, BYTE PTR [rbp-0x4c]
+  1d:   0f be d8                movsx  ebx, al
+  20:   0f b6 45 a8             movzx  eax, BYTE PTR [rbp-0x58]
+  24:   44 0f be e0             movsx  r12d, al
+  28:   0f b6 45 a1             movzx  eax, BYTE PTR [rbp-0x5f]
+  2c:   0f be d0                movsx  edx, al
+  2f:   0f b6 45 b6             movzx  eax, BYTE PTR [rbp-0x4a]
+  33:   0f be c0                movsx  eax, al
+  36:   89 d6                   mov    esi, edx
+  38:   89 c7                   mov    edi, eax
+  3a:   e8 79 03 00 00          call   XOR_FUNC
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #7 ---
+   0:   44 89 e6                mov    esi, r12d
+   3:   89 c7                   mov    edi, eax
+   5:   e8 ae 03 00 00          call   XOR_FUNC
+   a:   89 de                   mov    esi, ebx
+   c:   89 c7                   mov    edi, eax
+   e:   e8 27 03 00 00          call   OR_FUNC
+  13:   83 f8 73                cmp    eax, 0x73
+  16:   0f 94 c0                sete   al
+  19:   0f b6 d0                movzx  edx, al
+  1c:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  20:   21 d0                   and    eax, edx
+  22:   85 c0                   test   eax, eax
+  24:   0f 95 c0                setne  al
+  27:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  2a:   0f b6 45 a1             movzx  eax, BYTE PTR [rbp-0x5f]
+  2e:   0f be d8                movsx  ebx, al
+  31:   0f b6 45 ab             movzx  eax, BYTE PTR [rbp-0x55]
+  35:   44 0f be e0             movsx  r12d, al
+  39:   0f b6 45 b4             movzx  eax, BYTE PTR [rbp-0x4c]
+  3d:   0f be d0                movsx  edx, al
+------------------------------------------------------------
+--- Decrypted chunk #8 ---
+   0:   0f b6 45 b2             movzx  eax, BYTE PTR [rbp-0x4e]
+   4:   0f be c0                movsx  eax, al
+   7:   89 d6                   mov    esi, edx
+   9:   89 c7                   mov    edi, eax
+   b:   e8 2a 03 00 00          call   OR_FUNC
+  10:   44 89 e6                mov    esi, r12d
+  13:   89 c7                   mov    edi, eax
+  15:   e8 57 00 00 00          call   NOT_FUNC
+  1a:   89 de                   mov    esi, ebx
+  1c:   89 c7                   mov    edi, eax
+  1e:   e8 95 03 00 00          call   XOR_FUNC
+  23:   3d e5 00 00 00          cmp    eax, 0xe5
+  28:   0f 94 c0                sete   al
+  2b:   0f b6 d0                movzx  edx, al
+  2e:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  32:   21 d0                   and    eax, edx
+  34:   85 c0                   test   eax, eax
+  36:   0f 95 c0                setne  al
+  39:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  3c:   0f b6 45 b5             movzx  eax, BYTE PTR [rbp-0x4b]
+------------------------------------------------------------
+--- Decrypted chunk #9 ---
+   0:   0f be d8                movsx  ebx, al
+   3:   0f b6 45 a4             movzx  eax, BYTE PTR [rbp-0x5c]
+   7:   44 0f be e0             movsx  r12d, al
+   b:   0f b6 45 a0             movzx  eax, BYTE PTR [rbp-0x60]
+   f:   0f be d0                movsx  edx, al
+  12:   0f b6 45 ad             movzx  eax, BYTE PTR [rbp-0x53]
+  16:   0f be c0                movsx  eax, al
+  19:   89 d6                   mov    esi, edx
+  1b:   89 c7                   mov    edi, eax
+  1d:   e8 09 02 00 00          call   MULT_FUNC
+  22:   44 89 e6                mov    esi, r12d
+  25:   89 c7                   mov    edi, eax
+  27:   e8 ff 01 00 00          call   MULT_FUNC
+  2c:   89 de                   mov    esi, ebx
+  2e:   89 c7                   mov    edi, eax
+  30:   e8 73 02 00 00          call   AND_FUNC
+  35:   83 f8 50                cmp    eax, 0x50
+  38:   0f 94 c0                sete   al
+  3b:   0f b6 d0                movzx  edx, al
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #10 ---
+   0:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+   4:   21 d0                   and    eax, edx
+   6:   85 c0                   test   eax, eax
+   8:   0f 95 c0                setne  al
+   b:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+   e:   0f b6 45 b6             movzx  eax, BYTE PTR [rbp-0x4a]
+  12:   0f be d8                movsx  ebx, al
+  15:   0f b6 45 a6             movzx  eax, BYTE PTR [rbp-0x5a]
+  19:   44 0f be e0             movsx  r12d, al
+  1d:   0f b6 45 ac             movzx  eax, BYTE PTR [rbp-0x54]
+  21:   0f be d0                movsx  edx, al
+  24:   0f b6 45 a4             movzx  eax, BYTE PTR [rbp-0x5c]
+  28:   0f be c0                movsx  eax, al
+  2b:   89 d6                   mov    esi, edx
+  2d:   89 c7                   mov    edi, eax
+  2f:   e8 3d 00 00 00          call   NOT_FUNC
+  34:   44 89 e6                mov    esi, r12d
+  37:   89 c7                   mov    edi, eax
+  39:   e8 7a 03 00 00          call   XOR_FUNC
+  3e:   89 de                   mov    esi, ebx
+------------------------------------------------------------
+--- Decrypted chunk #11 ---
+   0:   89 c7                   mov    edi, eax
+   2:   e8 b1 03 00 00          call   XOR_FUNC
+   7:   3d 8c 00 00 00          cmp    eax, 0x8c
+   c:   0f 94 c0                sete   al
+   f:   0f b6 d0                movzx  edx, al
+  12:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  16:   21 d0                   and    eax, edx
+  18:   85 c0                   test   eax, eax
+  1a:   0f 95 c0                setne  al
+  1d:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  20:   0f b6 45 a6             movzx  eax, BYTE PTR [rbp-0x5a]
+  24:   0f be d8                movsx  ebx, al
+  27:   0f b6 45 a3             movzx  eax, BYTE PTR [rbp-0x5d]
+  2b:   44 0f be e0             movsx  r12d, al
+  2f:   0f b6 45 b3             movzx  eax, BYTE PTR [rbp-0x4d]
+  33:   0f be d0                movsx  edx, al
+  36:   0f b6 45 b1             movzx  eax, BYTE PTR [rbp-0x4f]
+  3a:   0f be c0                movsx  eax, al
+  3d:   89 d6                   mov    esi, edx
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #12 ---
+   0:   89 c7                   mov    edi, eax
+   2:   e8 ea 00 00 00          call   SUB_FUNC
+   7:   44 89 e6                mov    esi, r12d
+   a:   89 c7                   mov    edi, eax
+   c:   e8 97 02 00 00          call   AND_FUNC
+  11:   89 de                   mov    esi, ebx
+  13:   89 c7                   mov    edi, eax
+  15:   e8 8e 02 00 00          call   AND_FUNC
+  1a:   85 c0                   test   eax, eax
+  1c:   0f 94 c0                sete   al
+  1f:   0f b6 d0                movzx  edx, al
+  22:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  26:   21 d0                   and    eax, edx
+  28:   85 c0                   test   eax, eax
+  2a:   0f 95 c0                setne  al
+  2d:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  30:   0f b6 45 a5             movzx  eax, BYTE PTR [rbp-0x5b]
+  34:   0f be d8                movsx  ebx, al
+  37:   0f b6 45 b2             movzx  eax, BYTE PTR [rbp-0x4e]
+  3b:   44 0f be e0             movsx  r12d, al
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #13 ---
+   0:   0f b6 45 a2             movzx  eax, BYTE PTR [rbp-0x5e]
+   4:   0f be d0                movsx  edx, al
+   7:   0f b6 45 a3             movzx  eax, BYTE PTR [rbp-0x5d]
+   b:   0f be c0                movsx  eax, al
+   e:   89 d6                   mov    esi, edx
+  10:   89 c7                   mov    edi, eax
+  12:   e8 a1 03 00 00          call   XOR_FUNC
+  17:   44 89 e6                mov    esi, r12d
+  1a:   89 c7                   mov    edi, eax
+  1c:   e8 50 00 00 00          call   NOT_FUNC
+  21:   89 de                   mov    esi, ebx
+  23:   89 c7                   mov    edi, eax
+  25:   e8 01 02 00 00          call   MULT_FUNC
+  2a:   3d a0 19 00 00          cmp    eax, 0x19a0
+  2f:   0f 94 c0                sete   al
+  32:   0f b6 d0                movzx  edx, al
+  35:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  39:   21 d0                   and    eax, edx
+  3b:   85 c0                   test   eax, eax
+  3d:   0f 95 c0                setne  al
+------------------------------------------------------------
+--- Decrypted chunk #14 ---
+   0:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+   3:   0f b6 45 ae             movzx  eax, BYTE PTR [rbp-0x52]
+   7:   0f be d8                movsx  ebx, al
+   a:   0f b6 45 a6             movzx  eax, BYTE PTR [rbp-0x5a]
+   e:   44 0f be e0             movsx  r12d, al
+  12:   0f b6 45 a0             movzx  eax, BYTE PTR [rbp-0x60]
+  16:   0f be d0                movsx  edx, al
+  19:   0f b6 45 b2             movzx  eax, BYTE PTR [rbp-0x4e]
+  1d:   0f be c0                movsx  eax, al
+  20:   89 d6                   mov    esi, edx
+  22:   89 c7                   mov    edi, eax
+  24:   e8 02 02 00 00          call   MULT_FUNC
+  29:   44 89 e6                mov    esi, r12d
+  2c:   89 c7                   mov    edi, eax
+  2e:   e8 75 02 00 00          call   AND_FUNC
+  33:   89 de                   mov    esi, ebx
+  35:   89 c7                   mov    edi, eax
+  37:   e8 35 00 00 00          call   NOT_FUNC
+  3c:   83 f8 40                cmp    eax, 0x40
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #15 ---
+   0:   0f 94 c0                sete   al
+   3:   0f b6 d0                movzx  edx, al
+   6:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+   a:   21 d0                   and    eax, edx
+   c:   85 c0                   test   eax, eax
+   e:   0f 95 c0                setne  al
+  11:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  14:   0f b6 45 a5             movzx  eax, BYTE PTR [rbp-0x5b]
+  18:   0f be d8                movsx  ebx, al
+  1b:   0f b6 45 a4             movzx  eax, BYTE PTR [rbp-0x5c]
+  1f:   44 0f be e0             movsx  r12d, al
+  23:   0f b6 45 a2             movzx  eax, BYTE PTR [rbp-0x5e]
+  27:   0f be d0                movsx  edx, al
+  2a:   0f b6 45 a2             movzx  eax, BYTE PTR [rbp-0x5e]
+  2e:   0f be c0                movsx  eax, al
+  31:   89 d6                   mov    esi, edx
+  33:   89 c7                   mov    edi, eax
+  35:   e8 6e 02 00 00          call   AND_FUNC
+  3a:   44 89 e6                mov    esi, r12d
+  3d:   89 c7                   mov    edi, eax
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #16 ---
+   0:   e8 35 03 00 00          call   OR_FUNC
+   5:   89 de                   mov    esi, ebx
+   7:   89 c7                   mov    edi, eax
+   9:   e8 9a 02 00 00          call   AND_FUNC
+   e:   83 f8 52                cmp    eax, 0x52
+  11:   0f 94 c0                sete   al
+  14:   0f b6 d0                movzx  edx, al
+  17:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  1b:   21 d0                   and    eax, edx
+  1d:   85 c0                   test   eax, eax
+  1f:   0f 95 c0                setne  al
+  22:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  25:   0f b6 45 af             movzx  eax, BYTE PTR [rbp-0x51]
+  29:   0f be d8                movsx  ebx, al
+  2c:   0f b6 45 ac             movzx  eax, BYTE PTR [rbp-0x54]
+  30:   44 0f be e0             movsx  r12d, al
+  34:   0f b6 45 a9             movzx  eax, BYTE PTR [rbp-0x57]
+  38:   0f be d0                movsx  edx, al
+  3b:   0f b6 45 a0             movzx  eax, BYTE PTR [rbp-0x60]
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #17 ---
+   0:   0f be c0                movsx  eax, al
+   3:   89 d6                   mov    esi, edx
+   5:   89 c7                   mov    edi, eax
+   7:   e8 ac 03 00 00          call   XOR_FUNC
+   c:   44 89 e6                mov    esi, r12d
+   f:   89 c7                   mov    edi, eax
+  11:   e8 15 02 00 00          call   MULT_FUNC
+  16:   89 de                   mov    esi, ebx
+  18:   89 c7                   mov    edi, eax
+  1a:   e8 d2 00 00 00          call   SUB_FUNC
+  1f:   3d cc 07 00 00          cmp    eax, 0x7cc
+  24:   0f 94 c0                sete   al
+  27:   0f b6 d0                movzx  edx, al
+  2a:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  2e:   21 d0                   and    eax, edx
+  30:   85 c0                   test   eax, eax
+  32:   0f 95 c0                setne  al
+  35:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  38:   0f b6 45 ab             movzx  eax, BYTE PTR [rbp-0x55]
+  3c:   0f be d8                movsx  ebx, al
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #18 ---
+   0:   0f b6 45 b5             movzx  eax, BYTE PTR [rbp-0x4b]
+   4:   44 0f be e0             movsx  r12d, al
+   8:   0f b6 45 ac             movzx  eax, BYTE PTR [rbp-0x54]
+   c:   0f be d0                movsx  edx, al
+   f:   0f b6 45 b1             movzx  eax, BYTE PTR [rbp-0x4f]
+  13:   0f be c0                movsx  eax, al
+  16:   89 d6                   mov    esi, edx
+  18:   89 c7                   mov    edi, eax
+  1a:   e8 0c 02 00 00          call   MULT_FUNC
+  1f:   44 89 e6                mov    esi, r12d
+  22:   89 c7                   mov    edi, eax
+  24:   e8 48 00 00 00          call   NOT_FUNC
+  29:   89 de                   mov    esi, ebx
+  2b:   89 c7                   mov    edi, eax
+  2d:   e8 86 03 00 00          call   XOR_FUNC
+  32:   3d f4 21 00 00          cmp    eax, 0x21f4
+  37:   0f 94 c0                sete   al
+  3a:   0f b6 d0                movzx  edx, al
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #19 ---
+   0:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+   4:   21 d0                   and    eax, edx
+   6:   85 c0                   test   eax, eax
+   8:   0f 95 c0                setne  al
+   b:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+   e:   0f b6 45 b1             movzx  eax, BYTE PTR [rbp-0x4f]
+  12:   0f be d8                movsx  ebx, al
+  15:   0f b6 45 b6             movzx  eax, BYTE PTR [rbp-0x4a]
+  19:   44 0f be e0             movsx  r12d, al
+  1d:   0f b6 45 ac             movzx  eax, BYTE PTR [rbp-0x54]
+  21:   0f be d0                movsx  edx, al
+  24:   0f b6 45 b6             movzx  eax, BYTE PTR [rbp-0x4a]
+  28:   0f be c0                movsx  eax, al
+  2b:   89 d6                   mov    esi, edx
+  2d:   89 c7                   mov    edi, eax
+  2f:   e8 74 02 00 00          call   AND_FUNC
+  34:   44 89 e6                mov    esi, r12d
+  37:   89 c7                   mov    edi, eax
+  39:   e8 33 00 00 00          call   NOT_FUNC
+  3e:   89 de                   mov    esi, ebx
+------------------------------------------------------------
+--- Decrypted chunk #20 ---
+   0:   89 c7                   mov    edi, eax
+   2:   e8 b1 03 00 00          call   XOR_FUNC
+   7:   3d ad 00 00 00          cmp    eax, 0xad
+   c:   0f 94 c0                sete   al
+   f:   0f b6 d0                movzx  edx, al
+  12:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  16:   21 d0                   and    eax, edx
+  18:   85 c0                   test   eax, eax
+  1a:   0f 95 c0                setne  al
+  1d:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  20:   0f b6 45 b1             movzx  eax, BYTE PTR [rbp-0x4f]
+  24:   0f be d8                movsx  ebx, al
+  27:   0f b6 45 b7             movzx  eax, BYTE PTR [rbp-0x49]
+  2b:   44 0f be e0             movsx  r12d, al
+  2f:   0f b6 45 b0             movzx  eax, BYTE PTR [rbp-0x50]
+  33:   0f be d0                movsx  edx, al
+  36:   0f b6 45 b7             movzx  eax, BYTE PTR [rbp-0x49]
+  3a:   0f be c0                movsx  eax, al
+  3d:   89 d6                   mov    esi, edx
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #21 ---
+   0:   89 c7                   mov    edi, eax
+   2:   e8 b1 03 00 00          call   XOR_FUNC
+   7:   44 89 e6                mov    esi, r12d
+   a:   89 c7                   mov    edi, eax
+   c:   e8 97 02 00 00          call   AND_FUNC
+  11:   89 de                   mov    esi, ebx
+  13:   89 c7                   mov    edi, eax
+  15:   e8 11 02 00 00          call   MULT_FUNC
+  1a:   83 f8 69                cmp    eax, 0x69
+  1d:   0f 94 c0                sete   al
+  20:   0f b6 d0                movzx  edx, al
+  23:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  27:   21 d0                   and    eax, edx
+  29:   85 c0                   test   eax, eax
+  2b:   0f 95 c0                setne  al
+  2e:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  31:   0f b6 45 b5             movzx  eax, BYTE PTR [rbp-0x4b]
+  35:   0f be d8                movsx  ebx, al
+  38:   0f b6 45 a1             movzx  eax, BYTE PTR [rbp-0x5f]
+  3c:   44 0f be e0             movsx  r12d, al
+------------------------------------------------------------
+--- Decrypted chunk #22 ---
+   0:   0f b6 45 a0             movzx  eax, BYTE PTR [rbp-0x60]
+   4:   0f be d0                movsx  edx, al
+   7:   0f b6 45 a2             movzx  eax, BYTE PTR [rbp-0x5e]
+   b:   0f be c0                movsx  eax, al
+   e:   89 d6                   mov    esi, edx
+  10:   89 c7                   mov    edi, eax
+  12:   e8 da 00 00 00          call   SUB_FUNC
+  17:   44 89 e6                mov    esi, r12d
+  1a:   89 c7                   mov    edi, eax
+  1c:   e8 87 02 00 00          call   AND_FUNC
+  21:   89 de                   mov    esi, ebx
+  23:   89 c7                   mov    edi, eax
+  25:   e8 c7 00 00 00          call   SUB_FUNC
+  2a:   83 f8 bf                cmp    eax, 0xffffffbf
+  2d:   0f 94 c0                sete   al
+  30:   0f b6 d0                movzx  edx, al
+  33:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  37:   21 d0                   and    eax, edx
+  39:   85 c0                   test   eax, eax
+  3b:   0f 95 c0                setne  al
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #23 ---
+   0:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+   3:   0f b6 45 a2             movzx  eax, BYTE PTR [rbp-0x5e]
+   7:   0f be d8                movsx  ebx, al
+   a:   0f b6 45 a0             movzx  eax, BYTE PTR [rbp-0x60]
+   e:   44 0f be e0             movsx  r12d, al
+  12:   0f b6 45 b6             movzx  eax, BYTE PTR [rbp-0x4a]
+  16:   0f be d0                movsx  edx, al
+  19:   0f b6 45 ae             movzx  eax, BYTE PTR [rbp-0x52]
+  1d:   0f be c0                movsx  eax, al
+  20:   89 d6                   mov    esi, edx
+  22:   89 c7                   mov    edi, eax
+  24:   e8 02 02 00 00          call   MULT_FUNC
+  29:   44 89 e6                mov    esi, r12d
+  2c:   89 c7                   mov    edi, eax
+  2e:   e8 85 03 00 00          call   XOR_FUNC
+  33:   89 de                   mov    esi, ebx
+  35:   89 c7                   mov    edi, eax
+  37:   e8 ef 01 00 00          call   MULT_FUNC
+  3c:   90                      nop
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #24 ---
+   0:   3d 8c 3f 07 00          cmp    eax, 0x73f8c
+   5:   0f 94 c0                sete   al
+   8:   0f b6 d0                movzx  edx, al
+   b:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+   f:   21 d0                   and    eax, edx
+  11:   85 c0                   test   eax, eax
+  13:   0f 95 c0                setne  al
+  16:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  19:   0f b6 45 b4             movzx  eax, BYTE PTR [rbp-0x4c]
+  1d:   0f be d8                movsx  ebx, al
+  20:   0f b6 45 b2             movzx  eax, BYTE PTR [rbp-0x4e]
+  24:   44 0f be e0             movsx  r12d, al
+  28:   0f b6 45 af             movzx  eax, BYTE PTR [rbp-0x51]
+  2c:   0f be d0                movsx  edx, al
+  2f:   0f b6 45 a4             movzx  eax, BYTE PTR [rbp-0x5c]
+  33:   0f be c0                movsx  eax, al
+  36:   89 d6                   mov    esi, edx
+  38:   89 c7                   mov    edi, eax
+  3a:   e8 b2 00 00 00          call   SUB_FUNC
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #25 ---
+   0:   44 89 e6                mov    esi, r12d
+   3:   89 c7                   mov    edi, eax
+   5:   e8 21 02 00 00          call   MULT_FUNC
+   a:   89 de                   mov    esi, ebx
+   c:   89 c7                   mov    edi, eax
+   e:   e8 de 00 00 00          call   SUB_FUNC
+  13:   3d 5b 03 00 00          cmp    eax, 0x35b
+  18:   0f 94 c0                sete   al
+  1b:   0f b6 d0                movzx  edx, al
+  1e:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  22:   21 d0                   and    eax, edx
+  24:   85 c0                   test   eax, eax
+  26:   0f 95 c0                setne  al
+  29:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  2c:   0f b6 45 a1             movzx  eax, BYTE PTR [rbp-0x5f]
+  30:   0f be d8                movsx  ebx, al
+  33:   0f b6 45 a5             movzx  eax, BYTE PTR [rbp-0x5b]
+  37:   44 0f be e0             movsx  r12d, al
+  3b:   0f b6 45 a8             movzx  eax, BYTE PTR [rbp-0x58]
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #26 ---
+   0:   0f be d0                movsx  edx, al
+   3:   0f b6 45 a1             movzx  eax, BYTE PTR [rbp-0x5f]
+   7:   0f be c0                movsx  eax, al
+   a:   89 d6                   mov    esi, edx
+   c:   89 c7                   mov    edi, eax
+   e:   e8 de 00 00 00          call   SUB_FUNC
+  13:   44 89 e6                mov    esi, r12d
+  16:   89 c7                   mov    edi, eax
+  18:   e8 0e 02 00 00          call   MULT_FUNC
+  1d:   89 de                   mov    esi, ebx
+  1f:   89 c7                   mov    edi, eax
+  21:   e8 05 02 00 00          call   MULT_FUNC
+  26:   3d 02 31 00 00          cmp    eax, 0x3102
+  2b:   0f 94 c0                sete   al
+  2e:   0f b6 d0                movzx  edx, al
+  31:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  35:   21 d0                   and    eax, edx
+  37:   85 c0                   test   eax, eax
+  39:   0f 95 c0                setne  al
+  3c:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #27 ---
+   0:   0f b6 45 a6             movzx  eax, BYTE PTR [rbp-0x5a]
+   4:   0f be d8                movsx  ebx, al
+   7:   0f b6 45 a3             movzx  eax, BYTE PTR [rbp-0x5d]
+   b:   44 0f be e0             movsx  r12d, al
+   f:   0f b6 45 b0             movzx  eax, BYTE PTR [rbp-0x50]
+  13:   0f be d0                movsx  edx, al
+  16:   0f b6 45 ae             movzx  eax, BYTE PTR [rbp-0x52]
+  1a:   0f be c0                movsx  eax, al
+  1d:   89 d6                   mov    esi, edx
+  1f:   89 c7                   mov    edi, eax
+  21:   e8 cb 00 00 00          call   SUB_FUNC
+  26:   44 89 e6                mov    esi, r12d
+  29:   89 c7                   mov    edi, eax
+  2b:   e8 41 00 00 00          call   NOT_FUNC
+  30:   89 de                   mov    esi, ebx
+  32:   89 c7                   mov    edi, eax
+  34:   e8 b8 00 00 00          call   SUB_FUNC
+  39:   83 f8 da                cmp    eax, 0xffffffda
+  3c:   0f 94 c0                sete   al
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #28 ---
+   0:   0f b6 d0                movzx  edx, al
+   3:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+   7:   21 d0                   and    eax, edx
+   9:   85 c0                   test   eax, eax
+   b:   0f 95 c0                setne  al
+   e:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  11:   0f b6 45 ab             movzx  eax, BYTE PTR [rbp-0x55]
+  15:   0f be d8                movsx  ebx, al
+  18:   0f b6 45 b5             movzx  eax, BYTE PTR [rbp-0x4b]
+  1c:   44 0f be e0             movsx  r12d, al
+  20:   0f b6 45 b5             movzx  eax, BYTE PTR [rbp-0x4b]
+  24:   0f be d0                movsx  edx, al
+  27:   0f b6 45 b7             movzx  eax, BYTE PTR [rbp-0x49]
+  2b:   0f be c0                movsx  eax, al
+  2e:   89 d6                   mov    esi, edx
+  30:   89 c7                   mov    edi, eax
+  32:   e8 81 03 00 00          call   XOR_FUNC
+  37:   44 89 e6                mov    esi, r12d
+  3a:   89 c7                   mov    edi, eax
+  3c:   90                      nop
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #29 ---
+   0:   e8 a3 02 00 00          call   AND_FUNC
+   5:   89 de                   mov    esi, ebx
+   7:   89 c7                   mov    edi, eax
+   9:   e8 9a 02 00 00          call   AND_FUNC
+   e:   83 f8 02                cmp    eax, 0x2
+  11:   0f 94 c0                sete   al
+  14:   0f b6 d0                movzx  edx, al
+  17:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  1b:   21 d0                   and    eax, edx
+  1d:   85 c0                   test   eax, eax
+  1f:   0f 95 c0                setne  al
+  22:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  25:   0f b6 45 a6             movzx  eax, BYTE PTR [rbp-0x5a]
+  29:   0f be d8                movsx  ebx, al
+  2c:   0f b6 45 b3             movzx  eax, BYTE PTR [rbp-0x4d]
+  30:   44 0f be e0             movsx  r12d, al
+  34:   0f b6 45 ad             movzx  eax, BYTE PTR [rbp-0x53]
+  38:   0f be d0                movsx  edx, al
+  3b:   0f b6 45 b7             movzx  eax, BYTE PTR [rbp-0x49]
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #30 ---
+   0:   0f be c0                movsx  eax, al
+   3:   89 d6                   mov    esi, edx
+   5:   89 c7                   mov    edi, eax
+   7:   e8 9c 02 00 00          call   AND_FUNC
+   c:   44 89 e6                mov    esi, r12d
+   f:   89 c7                   mov    edi, eax
+  11:   e8 5b 00 00 00          call   NOT_FUNC
+  16:   89 de                   mov    esi, ebx
+  18:   89 c7                   mov    edi, eax
+  1a:   e8 d2 00 00 00          call   SUB_FUNC
+  1f:   83 f8 63                cmp    eax, 0x63
+  22:   0f 94 c0                sete   al
+  25:   0f b6 d0                movzx  edx, al
+  28:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  2c:   21 d0                   and    eax, edx
+  2e:   85 c0                   test   eax, eax
+  30:   0f 95 c0                setne  al
+  33:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  36:   0f b6 45 a4             movzx  eax, BYTE PTR [rbp-0x5c]
+  3a:   0f be d8                movsx  ebx, al
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #31 ---
+   0:   0f b6 45 b0             movzx  eax, BYTE PTR [rbp-0x50]
+   4:   44 0f be e0             movsx  r12d, al
+   8:   0f b6 45 b7             movzx  eax, BYTE PTR [rbp-0x49]
+   c:   0f be d0                movsx  edx, al
+   f:   0f b6 45 ab             movzx  eax, BYTE PTR [rbp-0x55]
+  13:   0f be c0                movsx  eax, al
+  16:   89 d6                   mov    esi, edx
+  18:   89 c7                   mov    edi, eax
+  1a:   e8 52 00 00 00          call   NOT_FUNC
+  1f:   44 89 e6                mov    esi, r12d
+  22:   89 c7                   mov    edi, eax
+  24:   e8 8f 03 00 00          call   XOR_FUNC
+  29:   89 de                   mov    esi, ebx
+  2b:   89 c7                   mov    edi, eax
+  2d:   e8 86 03 00 00          call   XOR_FUNC
+  32:   3d d9 00 00 00          cmp    eax, 0xd9
+  37:   0f 94 c0                sete   al
+  3a:   0f b6 d0                movzx  edx, al
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #32 ---
+   0:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+   4:   21 d0                   and    eax, edx
+   6:   85 c0                   test   eax, eax
+   8:   0f 95 c0                setne  al
+   b:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+   e:   0f b6 45 a8             movzx  eax, BYTE PTR [rbp-0x58]
+  12:   0f be d8                movsx  ebx, al
+  15:   0f b6 45 a3             movzx  eax, BYTE PTR [rbp-0x5d]
+  19:   44 0f be e0             movsx  r12d, al
+  1d:   0f b6 45 ad             movzx  eax, BYTE PTR [rbp-0x53]
+  21:   0f be d0                movsx  edx, al
+  24:   0f b6 45 ad             movzx  eax, BYTE PTR [rbp-0x53]
+  28:   0f be c0                movsx  eax, al
+  2b:   89 d6                   mov    esi, edx
+  2d:   89 c7                   mov    edi, eax
+  2f:   e8 f7 01 00 00          call   MULT_FUNC
+  34:   44 89 e6                mov    esi, r12d
+  37:   89 c7                   mov    edi, eax
+  39:   e8 7a 03 00 00          call   XOR_FUNC
+  3e:   89 de                   mov    esi, ebx
+------------------------------------------------------------
+--- Decrypted chunk #33 ---
+   0:   89 c7                   mov    edi, eax
+   2:   e8 6a 00 00 00          call   NOT_FUNC
+   7:   3d 62 35 00 00          cmp    eax, 0x3562
+   c:   0f 94 c0                sete   al
+   f:   0f b6 d0                movzx  edx, al
+  12:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  16:   21 d0                   and    eax, edx
+  18:   85 c0                   test   eax, eax
+  1a:   0f 95 c0                setne  al
+  1d:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  20:   0f b6 45 a8             movzx  eax, BYTE PTR [rbp-0x58]
+  24:   0f be d8                movsx  ebx, al
+  27:   0f b6 45 a1             movzx  eax, BYTE PTR [rbp-0x5f]
+  2b:   44 0f be e0             movsx  r12d, al
+  2f:   0f b6 45 af             movzx  eax, BYTE PTR [rbp-0x51]
+  33:   0f be d0                movsx  edx, al
+  36:   0f b6 45 b5             movzx  eax, BYTE PTR [rbp-0x4b]
+  3a:   0f be c0                movsx  eax, al
+  3d:   89 d6                   mov    esi, edx
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #34 ---
+   0:   89 c7                   mov    edi, eax
+   2:   e8 a1 02 00 00          call   AND_FUNC
+   7:   44 89 e6                mov    esi, r12d
+   a:   89 c7                   mov    edi, eax
+   c:   e8 a7 03 00 00          call   XOR_FUNC
+  11:   89 de                   mov    esi, ebx
+  13:   89 c7                   mov    edi, eax
+  15:   e8 20 03 00 00          call   OR_FUNC
+  1a:   83 f8 71                cmp    eax, NOT_FUNC
+  1d:   0f 94 c0                sete   al
+  20:   0f b6 d0                movzx  edx, al
+  23:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  27:   21 d0                   and    eax, edx
+  29:   85 c0                   test   eax, eax
+  2b:   0f 95 c0                setne  al
+  2e:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+  31:   0f b6 45 ab             movzx  eax, BYTE PTR [rbp-0x55]
+  35:   0f be d8                movsx  ebx, al
+  38:   0f b6 45 a2             movzx  eax, BYTE PTR [rbp-0x5e]
+  3c:   44 0f be e0             movsx  r12d, al
+------------------------------------------------------------
+--- Decrypted chunk #35 ---
+   0:   0f b6 45 af             movzx  eax, BYTE PTR [rbp-0x51]
+   4:   0f be d0                movsx  edx, al
+   7:   0f b6 45 ae             movzx  eax, BYTE PTR [rbp-0x52]
+   b:   0f be c0                movsx  eax, al
+   e:   89 d6                   mov    esi, edx
+  10:   89 c7                   mov    edi, eax
+  12:   e8 91 02 00 00          call   AND_FUNC
+  17:   44 89 e6                mov    esi, r12d
+  1a:   89 c7                   mov    edi, eax
+  1c:   e8 d0 00 00 00          call   SUB_FUNC
+  21:   89 de                   mov    esi, ebx
+  23:   89 c7                   mov    edi, eax
+  25:   e8 8e 03 00 00          call   XOR_FUNC
+  2a:   83 f8 a0                cmp    eax, 0xffffffa0
+  2d:   0f 94 c0                sete   al
+  30:   0f b6 d0                movzx  edx, al
+  33:   0f b6 45 ef             movzx  eax, BYTE PTR [rbp-0x11]
+  37:   21 d0                   and    eax, edx
+  39:   85 c0                   test   eax, eax
+  3b:   0f 95 c0                setne  al
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #36 ---
+   0:   88 45 ef                mov    BYTE PTR [rbp-0x11], al
+   3:   90                      nop
+   4:   90                      nop
+   5:   90                      nop
+   6:   90                      nop
+   7:   90                      nop
+   8:   90                      nop
+   9:   90                      nop
+   a:   90                      nop
+   b:   90                      nop
+   c:   90                      nop
+   d:   90                      nop
+   e:   90                      nop
+   f:   90                      nop
+  10:   90                      nop
+  11:   90                      nop
+  12:   90                      nop
+  13:   90                      nop
+  14:   90                      nop
+  15:   90                      nop
+  16:   90                      nop
+  17:   90                      nop
+  18:   90                      nop
+  19:   90                      nop
+  1a:   90                      nop
+  1b:   90                      nop
+  1c:   90                      nop
+  1d:   90                      nop
+  1e:   90                      nop
+  1f:   90                      nop
+  20:   90                      nop
+  21:   90                      nop
+  22:   90                      nop
+  23:   90                      nop
+  24:   90                      nop
+  25:   90                      nop
+  26:   90                      nop
+  27:   90                      nop
+  28:   90                      nop
+  29:   90                      nop
+  2a:   90                      nop
+  2b:   90                      nop
+  2c:   90                      nop
+  2d:   90                      nop
+  2e:   90                      nop
+  2f:   90                      nop
+  30:   90                      nop
+  31:   90                      nop
+  32:   90                      nop
+  33:   90                      nop
+  34:   90                      nop
+  35:   90                      nop
+  36:   90                      nop
+  37:   90                      nop
+  38:   90                      nop
+  39:   90                      nop
+  3a:   90                      nop
+  3b:   90                      nop
+  3c:   90                      nop
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #37 ---
+   0:   80 7d ef 00             cmp    BYTE PTR [rbp-0x11], 0x0
+   4:   74 11                   je     0x17
+   6:   48 8b 05 fb 2c 00 00    mov    rax, QWORD PTR [rip+0x2cfb]        # 0x2d08
+   d:   48 89 c7                mov    rdi, rax
+  10:   e8 7b fd ff ff          call   0xfffffffffffffd90
+  15:   eb 0f                   jmp    0x26
+  17:   48 8b 05 f2 2c 00 00    mov    rax, QWORD PTR [rip+0x2cf2]        # 0x2d10
+  1e:   48 89 c7                mov    rdi, rax
+  21:   e8 6a fd ff ff          call   0xfffffffffffffd90
+  26:   b8 00 00 00 00          mov    eax, 0x0
+  2b:   48 83 c4 50             add    rsp, 0x50
+  2f:   5b                      pop    rbx
+  30:   41 5c                   pop    r12
+  32:   5d                      pop    rbp
+  33:   c3                      ret
+  34:   90                      nop
+  35:   90                      nop
+  36:   90                      nop
+  37:   90                      nop
+  38:   90                      nop
+  39:   90                      nop
+  3a:   90                      nop
+  3b:   90                      nop
+  3c:   90                      nop
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #38 ---
+   0:   80 7d ef 00             cmp    BYTE PTR [rbp-0x11], 0x0
+   4:   74 11                   je     0x17
+   6:   48 8b 05 fb 2c 00 00    mov    rax, QWORD PTR [rip+0x2cfb]        # 0x2d08
+   d:   48 89 c7                mov    rdi, rax
+  10:   e8 7b fd ff ff          call   0xfffffffffffffd90
+  15:   eb 0f                   jmp    0x26
+  17:   48 8b 05 f2 2c 00 00    mov    rax, QWORD PTR [rip+0x2cf2]        # 0x2d10
+  1e:   48 89 c7                mov    rdi, rax
+  21:   e8 6a fd ff ff          call   0xfffffffffffffd90
+  26:   b8 00 00 00 00          mov    eax, 0x0
+  2b:   48 83 c4 50             add    rsp, 0x50
+  2f:   5b                      pop    rbx
+  30:   41 5c                   pop    r12
+  32:   5d                      pop    rbp
+  33:   c3                      ret
+  34:   90                      nop
+  35:   90                      nop
+  36:   90                      nop
+  37:   90                      nop
+  38:   90                      nop
+  39:   90                      nop
+  3a:   90                      nop
+  3b:   90                      nop
+  3c:   90                      nop
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
+--- Decrypted chunk #39 ---
+   0:   80 7d ef 00             cmp    BYTE PTR [rbp-0x11], 0x0
+   4:   74 11                   je     0x17
+   6:   48 8b 05 fb 2c 00 00    mov    rax, QWORD PTR [rip+0x2cfb]        # 0x2d08
+   d:   48 89 c7                mov    rdi, rax
+  10:   e8 7b fd ff ff          call   0xfffffffffffffd90
+  15:   eb 0f                   jmp    0x26
+  17:   48 8b 05 f2 2c 00 00    mov    rax, QWORD PTR [rip+0x2cf2]        # 0x2d10
+  1e:   48 89 c7                mov    rdi, rax
+  21:   e8 6a fd ff ff          call   0xfffffffffffffd90
+  26:   b8 00 00 00 00          mov    eax, 0x0
+  2b:   48 83 c4 50             add    rsp, 0x50
+  2f:   5b                      pop    rbx
+  30:   41 5c                   pop    r12
+  32:   5d                      pop    rbp
+  33:   c3                      ret
+  34:   90                      nop
+  35:   90                      nop
+  36:   90                      nop
+  37:   90                      nop
+  38:   90                      nop
+  39:   90                      nop
+  3a:   90                      nop
+  3b:   90                      nop
+  3c:   90                      nop
+  3d:   90                      nop
+  3e:   90                      nop
+  3f:   90                      nop
+------------------------------------------------------------
