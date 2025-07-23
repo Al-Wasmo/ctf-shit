@@ -1,0 +1,6 @@
+push1 42 60 2a
+push1 0  60 00
+mstore8  53
+push1 32 60 20
+push1 0  60 00
+return   f3
