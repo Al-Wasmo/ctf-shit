@@ -1,0 +1,551 @@
+main              i0 = 1
+main              Run 128
+128               Run input
+input             i4 = 30583
+input             Run 150
+150               i5 = 26235
+150               Run 151
+151               i6 = 26209
+151               Run 152
+152               i7 = 27493
+152               Run 153
+153               i8 = 26209
+153               Run 154
+154               i9 = 27493
+154               Run 155
+155               f0 = 26209
+155               Run 156
+156               f1 = 27493
+156               Run 157
+157               f2 = 26209
+157               Run 158
+158               f3 = 27493
+158               Run 159
+159               f4 = 26209
+159               Run 160
+160               f5 = 27493
+160               Run 161
+161               f6 = 26209
+161               Run 162
+162               f7 = 27493
+162               Run 163
+163               f8 = 26209
+163               Run 164
+164               f9 = 27517
+164               Run 165
+165               i0 = 0
+165               Run 166
+166               ret (166)
+
+
+
+
+128               Run 129
+129               bombBeats = 0
+129               Run 130
+130               bombBeats = 1
+130               if 37d0
+131                  i1 = 42591
+131                  Run 132
+132                  i2 = i1 * 27342 % 65537
+132                  Run 133
+
+
+
+133                  Run round_loop
+round_loop           i0 = 0
+round_loop           Run 138
+138                  {'bar': 3, 'beat': 3.592377906694635, 'y': 3, 'tag': '138', 'type': 'TextExplosion', 'rooms': [0], 'text': '123', 'color': 'FFFFFF', 'mode': 'OneColor', 'direction': 'Right'}
+138                  Run 139
+139                  text round {numMistakes + 1}
+139                  Run 140
+140                  Run round
+
+
+round                i3 = 1
+round                Run 27
+27                   Run affine_prepare
+
+
+affine_prepare       i3 = i1
+affine_prepare       Run 0
+0                    i1 = i2 * 31149 % 65537 (11058)
+0                    Run 1
+1                    i2 = i3 * 17627 % 65537
+1                    Run 2
+2                    Enable 4
+
+2                    if 0d0
+2                       Disable 4
+2                    if 0d0
+3                       i1 = i1 / 3
+3                       Run 5
+5                       Run 6
+6                       Run 7
+7                       i3 = 0
+7                       Run 8
+8                       ret (8)
+
+2                    Run 4
+4                    Run 6
+27                   Run 28
+28                   rowReflectionsJumping = 0
+28                   Run 29
+29                   rowReflectionsJumping = 1
+29                   if 2d0
+30                      i3 = i1 * i4 + i2
+30                      Run 31
+31                      i4 = i3 % 65537
+31                      Run 32
+32                      i3 = 1
+32                      Run 33
+33                      Run affine_prepare
+33                      Run 34
+34                      rowReflections = 0
+34                      Run 35
+35                      rowReflections = 1
+35                      if 4d0
+36                         i3 = i1 * i5 + i2
+36                         Run 37
+37                         i5 = i3 % 65537
+37                         Run 38
+38                         i3 = 1
+38                         Run 39
+39                         Run affine_prepare
+39                         Run 40
+40                         subdivisions = 0
+40                         Run 41
+41                         subdivisions = 1
+41                         if 6d0
+42                            i3 = i1 * i6 + i2
+42                            Run 43
+43                            i6 = i3 % 65537
+43                            Run 44
+44                            i3 = 1
+44                            Run 45
+45                            Run affine_prepare
+45                            Run 46
+46                            charsOnlyOnStart = 0
+46                            Run 47
+47                            charsOnlyOnStart = 1
+47                            if 8d0
+48                               i3 = i1 * i7 + i2
+48                               Run 49
+49                               i7 = i3 % 65537
+49                               Run 50
+50                               i3 = 1
+50                               Run 51
+51                               Run affine_prepare
+51                               Run 52
+52                               noRowAnimsOnStart = 0
+52                               Run 53
+53                               noRowAnimsOnStart = 1
+53                               if 10d0
+54                                  i3 = i1 * i8 + i2
+54                                  Run 55
+55                                  i8 = i3 % 65537
+55                                  Run 56
+56                                  i3 = 1
+56                                  Run 57
+57                                  Run affine_prepare
+57                                  Run 58
+58                                  noHands = 0
+58                                  Run 59
+59                                  noHands = 1
+59                                  if 12d0
+60                                     i3 = i1 * i9 + i2
+60                                     Run 61
+61                                     i9 = i3 % 65537
+61                                     Run 62
+62                                     i3 = 1
+62                                     Run 63
+63                                     Run affine_prepare
+63                                     Run 64
+64                                     hideHandsOnStart = 0
+64                                     Run 65
+65                                     hideHandsOnStart = 1
+65                                     if 14d0
+66                                        i3 = i1 * f0 + i2
+66                                        Run 67
+67                                        f0 = i3 % 65537
+67                                        Run 68
+68                                        i3 = 1
+68                                        Run 69
+69                                        Run affine_prepare
+69                                        Run 70
+70                                        noOneshotShadows = 0
+70                                        Run 71
+71                                        noOneshotShadows = 1
+71                                        if 16d0
+72                                           i3 = i1 * f1 + i2
+72                                           Run 73
+73                                           f1 = i3 % 65537
+73                                           Run 74
+74                                           i3 = 1
+74                                           Run 75
+75                                           Run affine_prepare
+75                                           Run 76
+76                                           noBananaBeats = 0
+76                                           Run 77
+77                                           noBananaBeats = 1
+77                                           if 18d0
+78                                              i3 = i1 * f2 + i2
+78                                              Run 79
+79                                              f2 = i3 % 65537
+79                                              Run 80
+80                                              i3 = 1
+80                                              Run 81
+81                                              Run affine_prepare
+81                                              Run 82
+82                                              multiwindow = 0
+82                                              Run 83
+83                                              multiwindow = 1
+83                                              if 20d0
+84                                                 i3 = i1 * f3 + i2
+84                                                 Run 85
+85                                                 f3 = i3 % 65537
+85                                                 Run 86
+86                                                 i3 = 1
+86                                                 Run 87
+87                                                 Run affine_prepare
+87                                                 Run 88
+88                                                 dogMode = 0
+88                                                 Run 89
+89                                                 dogMode = 1
+89                                                 if 22d0
+90                                                    i3 = i1 * f4 + i2
+90                                                    Run 91
+91                                                    f4 = i3 % 65537
+91                                                    Run 92
+92                                                    i3 = 1
+92                                                    Run 93
+93                                                    Run affine_prepare
+93                                                    Run 94
+94                                                    instantRowChange = 0
+94                                                    Run 95
+95                                                    instantRowChange = 1
+95                                                    if 24d0
+96                                                       i3 = i1 * f5 + i2
+96                                                       Run 97
+97                                                       f5 = i3 % 65537
+97                                                       Run 98
+98                                                       i3 = 1
+98                                                       Run 99
+99                                                       Run affine_prepare
+99                                                       Run 100
+100                                                      disableRowChangeWarningFlashes = 0
+100                                                      Run 101
+101                                                      disableRowChangeWarningFlashes = 1
+101                                                      if 26d0
+102                                                         i3 = i1 * f6 + i2
+102                                                         Run 103
+103                                                         f6 = i3 % 65537
+103                                                         Run 104
+104                                                         i3 = 1
+104                                                         Run 105
+105                                                         Run affine_prepare
+105                                                         Run 106
+106                                                         invisibleHeart = 0
+106                                                         Run 107
+107                                                         invisibleHeart = 1
+107                                                         if 28d0
+108                                                            i3 = i1 * f7 + i2
+108                                                            Run 109
+109                                                            f7 = i3 % 65537
+109                                                            Run 110
+110                                                            i3 = 1
+110                                                            Run 111
+111                                                            Run affine_prepare
+111                                                            Run 112
+112                                                            invisibleChars = 0
+112                                                            Run 113
+113                                                            invisibleChars = 1
+113                                                            if 30d0
+114                                                               i3 = i1 * f8 + i2
+114                                                               Run 115
+115                                                               f8 = i3 % 65537
+115                                                               Run 116
+116                                                               i3 = 1
+116                                                               Run 117
+117                                                               Run affine_prepare
+117                                                               Run 118
+118                                                               rotateShake = 0
+118                                                               Run 119
+119                                                               rotateShake = 1
+119                                                               if 32d0
+120                                                                  i3 = i1 * f9 + i2
+120                                                                  Run 121
+121                                                                  f9 = i3 % 65537
+121                                                                  Run 122
+122                                                                  i3 = 1
+
+
+
+122                                                                  Run 123
+123                                                                  Run shift
+shift                                                                i3 = f9
+shift                                                                Run 9
+9                                                                    f9 = f8
+9                                                                    Run 10
+10                                                                   f8 = f7
+10                                                                   Run 11
+11                                                                   f7 = f6
+11                                                                   Run 12
+12                                                                   f6 = f5
+12                                                                   Run 13
+13                                                                   f5 = f4
+13                                                                   Run 14
+14                                                                   f4 = f3
+14                                                                   Run 15
+15                                                                   f3 = f2
+15                                                                   Run 16
+16                                                                   f2 = f1
+16                                                                   Run 17
+17                                                                   f1 = f0
+17                                                                   Run 18
+18                                                                   f0 = i9
+18                                                                   Run 19
+19                                                                   i9 = i8
+19                                                                   Run 20
+20                                                                   i8 = i7
+20                                                                   Run 21
+21                                                                   i7 = i6
+21                                                                   Run 22
+22                                                                   i6 = i5
+22                                                                   Run 23
+23                                                                   i5 = i4
+23                                                                   Run 24
+24                                                                   i4 = i3
+24                                                                   Run 25
+25                                                                   i3 = 0
+25                                                                   Run 26
+26                                                                   ret (26)
+123                                                                  Run 124
+124                                                                  smoothShake = 0
+124                                                                  Run 125
+125                                                                  smoothShake = 1
+125                                                                  if 34d0
+126                                                                     i0 = 1
+126                                                                     Run 127
+127                                                                     ret (127)
+
+
+
+125                                                                  if 35d0
+119                                                               if 33d0
+113                                                            if 31d0
+107                                                         if 29d0
+101                                                      if 27d0
+95                                                    if 25d0
+89                                                 if 23d0
+83                                              if 21d0
+77                                           if 19d0
+71                                        if 17d0
+65                                     if 15d0
+59                                  if 13d0
+53                               if 11d0
+47                            if 9d0
+41                         if 7d0
+35                      if 5d0
+29                   if 3d0
+140                  Run 141
+141                  activeDialogues = 0
+141                  Run 142
+142                  activeDialogues = 1
+142                  if 43d0
+143                     MistakeSilent()
+143                     Run 144
+144                     Enable 146
+144                     if 45d0
+144                        Disable 146
+144                     if 45d0
+145                        Run round_loop
+145                        Run 147
+147                        Run 148
+148                        Run 149
+149                        ret (149)
+144                     Run 146
+146                     Run 148
+
+142                  if 44d0
+133                  Run 134
+134                  activeDialoguesImmediately = 0
+134                  Run 135
+135                  activeDialoguesImmediately = 1
+135                  if 40d0
+
+
+
+136                     Run check
+check                   Enable 168
+check                   if 46d0
+check                      Disable 168
+check                   if 46d0
+167                        text Incorrect
+167                        Run 169
+169                        ret (169)
+check                   Run 168
+168                     Run 170
+170                     Run 171
+171                     Enable 173
+171                     if 47d0
+171                        Disable 173
+171                     if 47d0
+172                        text Incorrect
+172                        Run 174
+174                        ret (174)
+171                     Run 173
+173                     Run 175
+175                     Run 176
+176                     Enable 178
+176                     if 48d0
+176                        Disable 178
+176                     if 48d0
+177                        text Incorrect
+177                        Run 179
+179                        ret (179)
+176                     Run 178
+178                     Run 180
+180                     Run 181
+181                     Enable 183
+181                     if 49d0
+181                        Disable 183
+181                     if 49d0
+182                        text Incorrect
+182                        Run 184
+184                        ret (184)
+181                     Run 183
+183                     Run 185
+185                     Run 186
+186                     Enable 188
+186                     if 50d0
+186                        Disable 188
+186                     if 50d0
+187                        text Incorrect
+187                        Run 189
+189                        ret (189)
+186                     Run 188
+188                     Run 190
+190                     Run 191
+191                     Enable 193
+191                     if 51d0
+191                        Disable 193
+191                     if 51d0
+192                        text Incorrect
+192                        Run 194
+194                        ret (194)
+191                     Run 193
+193                     Run 195
+195                     Run 196
+196                     Enable 198
+196                     if 52d0
+196                        Disable 198
+196                     if 52d0
+197                        text Incorrect
+197                        Run 199
+199                        ret (199)
+196                     Run 198
+198                     Run 200
+200                     Run 201
+201                     Enable 203
+201                     if 53d0
+201                        Disable 203
+201                     if 53d0
+202                        text Incorrect
+202                        Run 204
+204                        ret (204)
+201                     Run 203
+203                     Run 205
+205                     Run 206
+206                     Enable 208
+206                     if 54d0
+206                        Disable 208
+206                     if 54d0
+207                        text Incorrect
+207                        Run 209
+209                        ret (209)
+206                     Run 208
+208                     Run 210
+210                     Run 211
+211                     Enable 213
+211                     if 55d0
+211                        Disable 213
+211                     if 55d0
+212                        text Incorrect
+212                        Run 214
+214                        ret (214)
+211                     Run 213
+213                     Run 215
+215                     Run 216
+216                     Enable 218
+216                     if 56d0
+216                        Disable 218
+216                     if 56d0
+217                        text Incorrect
+217                        Run 219
+219                        ret (219)
+216                     Run 218
+218                     Run 220
+220                     Run 221
+221                     Enable 223
+221                     if 57d0
+221                        Disable 223
+221                     if 57d0
+222                        text Incorrect
+222                        Run 224
+224                        ret (224)
+221                     Run 223
+223                     Run 225
+225                     Run 226
+226                     Enable 228
+226                     if 58d0
+226                        Disable 228
+226                     if 58d0
+227                        text Incorrect
+227                        Run 229
+229                        ret (229)
+226                     Run 228
+228                     Run 230
+230                     Run 231
+231                     Enable 233
+231                     if 59d0
+231                        Disable 233
+231                     if 59d0
+232                        text Incorrect
+232                        Run 234
+234                        ret (234)
+231                     Run 233
+233                     Run 235
+235                     Run 236
+236                     Enable 238
+236                     if 60d0
+236                        Disable 238
+236                     if 60d0
+237                        text Incorrect
+237                        Run 239
+239                        ret (239)
+236                     Run 238
+238                     Run 240
+240                     Run 241
+241                     Enable 243
+241                     if 61d0
+241                        Disable 243
+241                     if 61d0
+242                        text Incorrect
+242                        Run 244
+244                        ret (244)
+241                     Run 243
+243                     Run 245
+245                     Run 246
+246                     text Correct flag!
+246                     Run 247
+247                     i0 = 1337
+247                     Run 248
+248                     ret (248)
+
+
+
+136                     Run 137
+137                     ret (137)
+135                  if 41d0
+130               if 38d0
