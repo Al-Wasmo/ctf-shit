@@ -1,4 +1,4 @@
 ## Files
-- `dec.c`: recreation of the program, helped me encrypt and decrypt stuff
-- `dec.py`: its just from number to text code
-- `x.py`: intracting with the program 
+- `dec.c`: A recreation of the original encryption algorthm; helped with encrypting and decrypting values.
+- `dec.py`: A simple script that converts numbers to text.
+- `x.py`: Used to interact with the program.

@@ -1,8 +1,9 @@
 ## Steps
-- i think my `x.py` is readable
 
+- I think my `x.py` script is fairly readable.
 
 ## Notes
-- you can use `alarm` function to as a set rax gadget, i used `read` to do the same
-- i messed the `sigreturn` stack, which set `cs` to some random value, which crashed my syscall `execve`, took me `3 hours` to realize that :)
-- there is a fucking `pop rdi` gadget, which ppl used, and ROPgadget didnt find, wtf
+
+- You can use the `alarm` function as a `set rax` gadget — I used `read` to achieve the same effect.
+- I messed up the `sigreturn` stack, which caused the `cs` register to be set to a random value. That broke my `execve` syscall and took me **3 hours** to figure out. :)
+- There’s actually a `pop rdi` gadget that others used — but `ROPgadget` didn’t find it. WTF.
