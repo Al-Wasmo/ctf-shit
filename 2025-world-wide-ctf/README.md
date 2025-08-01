@@ -7,6 +7,7 @@
 ### pwn 
 - `ArmWorld`: arm go brrrrrrrrrr, this `arm chall` is scary i hope they dont do a `leg chall` next time
 - `GiggityRopityGoo`: limited rop chall, ofc its srop
+- `Dark`: side channel attack using the great vmaskmovps
 
 # rev
 - `BadApple`: bad apple chall, the intended solve requires you to change `b` to `a` :)
