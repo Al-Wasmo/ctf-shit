@@ -9,13 +9,13 @@
 - `GiggityRopityGoo`: limited rop chall, ofc its srop
 - `Dark`: side channel attack using the great vmaskmovps
 
-# rev
+### rev
 - `BadApple`: bad apple chall, the intended solve requires you to change `b` to `a` :)
 - `LegacySnakeGame`: c snake game???
 - `RhythmicVault`: this is the shit
 
 
-## Overall
+## overall
 - good shit
 
 
